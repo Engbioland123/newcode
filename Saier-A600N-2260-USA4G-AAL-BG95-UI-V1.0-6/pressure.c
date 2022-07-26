@@ -114,7 +114,7 @@ void TEST_CON(void)
 	   	
 	
 		PRE_SYS.Val=135;
-		PRE_DIA.Val=120;
+		PRE_DIA.Val=80;
 		PLSCNT=80;
 		//	 SYSDAS_DE();	 
 			 			
