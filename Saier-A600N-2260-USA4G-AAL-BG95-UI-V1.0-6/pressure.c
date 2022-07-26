@@ -113,10 +113,10 @@ void TEST_CON(void)
 	   { 
 	   	
 	
-//		PRE_SYS.Val=135;
-//		PRE_DIA.Val=120;
-//		PLSCNT=80;
-			 SYSDAS_DE();	 
+		PRE_SYS.Val=135;
+		PRE_DIA.Val=120;
+		PLSCNT=80;
+		//	 SYSDAS_DE();	 
 			 			
          //高压大于所加压力一20或低压小于25或低压大于高压或//应该小于加压点的20mmHg//低压要求大于45//高压在于低压    
 		 if((PRE_SYS.Val-PRE_DIA.Val>150)||(PRE_DIA.Val<25)||(PRE_DIA.Val>PRE_SYS.Val)||(PLSCNT<38)||(PLSCNT>204))  
