@@ -1,0 +1,1158 @@
+
+连接器　版本8.7.7.190806
+Input Object File: c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\AD.OBJ
+Input Object File: c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\DELAY.OBJ
+Input Object File: c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\G-777G.OBJ
+Input Object File: c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\IAP.OBJ
+Input Object File: c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ
+Input Object File: c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ
+Input Object File: c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ
+Input Object File: c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\STARTUP1_L.OBJ
+
+Input Library File: H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB
+Input Library File: H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib
+
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0000h     0001h    0002h      CODE               @code (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\G-777G.OBJ)
+     00h     0002h     000dh    000ch      CODE               ltofaz (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     000eh     0011h    0004h      CODE               itofaz (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0012h     0012h    0001h      CODE               _AD_Delay (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\AD.OBJ)
+     00h     0014h     0017h    0004h      CODE               @ISR_UART_code (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     00h     0018h     001dh    0006h      CODE               _builtin_holtek_ftinf (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0020h     0023h    0004h      CODE               @isr_timer_base0_code (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     0024h     0046h    0023h      CODE               @start (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\G-777G.OBJ)
+     00h     0047h     011fh    00d9h      CODE               _isr_timer_base0 (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     0120h     0167h    0048h      CODE               _ISR_UART (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     00h     0168h     017dh    0016h      CODE               @builtin_holtek_ftdecode (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     017eh     01afh    0032h      CODE               _builtin_holtek_ftdiv (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     01b0h     01e4h    0035h      CODE               _builtin_holtek_ftmul (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     01e5h     020fh    002bh      CODE               @builtin_holtek_ftol (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0210h     0243h    0034h      CODE               @builtin_holtek_ftsubadd (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0244h     0272h    002fh      CODE               _builtin_holtek_ftnorm (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0273h     0277h    0005h      CODE               _OP_set (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\AD.OBJ)
+     00h     0278h     027ch    0005h      CODE               _AD_set (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\AD.OBJ)
+     00h     027dh     0367h    00ebh      CODE               _test_OP (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\AD.OBJ)
+     00h     0368h     037dh    0016h      CODE               _me_delay_ms (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\DELAY.OBJ)
+     00h     037eh     16f4h    1377h      CODE               _get_lowPwd (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\AD.OBJ)
+     00h     16f5h     1726h    0032h      CODE               _Show_OFF (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     1727h     174ch    0026h      CODE               _displey_EB (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     174dh     1753h    0007h      CODE               _me_delay_100us (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\DELAY.OBJ)
+     00h     1754h     1757h    0004h      CODE               @ROMDATA_BASE (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\STARTUP1_L.OBJ)
+     00h     175ah     1760h    0007h      CODE               _Sys_RESET (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\G-777G.OBJ)
+     00h     1761h     1767h    0007h      CODE               _init_timer_base0 (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\G-777G.OBJ)
+     00h     1768h     1790h    0029h      CODE               _PORT_init (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\G-777G.OBJ)
+     00h     1791h     17c5h    0035h      CODE               _key_scan (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\G-777G.OBJ)
+     00h     17c6h     17cah    0005h      CODE               @crom (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\G-777G.OBJ)
+     00h     17cbh     1869h    009fh      CODE               _show_display (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     186ah     18c9h    0060h      CODE               _entry_Blood_drop (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\G-777G.OBJ)
+     00h     18d8h     194ch    0075h      CODE               _exit (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\G-777G.OBJ)
+     00h     194dh     1b1ah    01ceh      CODE               _show_sequence (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\G-777G.OBJ)
+     00h     1b1bh     1b2ah    0010h      CODE               _Buzzer (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     00h     1b31h     1bc3h    0093h      CODE               _fun_read_page (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\IAP.OBJ)
+     00h     1bd0h     1c3bh    006ch      CODE               _fun_write_cpage (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\IAP.OBJ)
+     00h     1c3ch     1c61h    0026h      CODE               _displey_YES (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     1c68h     1c8dh    0026h      CODE               _displey_test (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     1c90h     1cceh    003fh      CODE               _displey_DEL (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     1ccfh     1cf1h    0023h      CODE               _Show_EE (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     1cf9h     1d1bh    0023h      CODE               _displey_EU (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     1d1ch     1d42h    0027h      CODE               _Show_PC (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     1d43h     1d65h    0023h      CODE               _Show_VER (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     1d75h     1d97h    0023h      CODE               _Show_Et (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     1d98h     1dbah    0023h      CODE               _Show_EF (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     1dbbh     1ddch    0022h      CODE               _uart_init (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     00h     1ddeh     1e00h    0023h      CODE               _Show_000 (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     1e01h     1e32h    0032h      CODE               _Show_OPEN (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     1e37h     1e59h    0023h      CODE               _Show_END (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     1e5ah     1e78h    001fh      CODE               _GSM_turn_ON (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     00h     1e83h     1f9ah    0118h      CODE               _transformation (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     1ff8h     1ffeh    0007h      CODE               _SysSleep (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     01h     0000h     0ad4h    0ad5h      CODE               _Show_Big_number (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     01h     0ad9h     0c99h    01c1h      CODE               _Update_time (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     01h     0c9ah     0d1bh    0082h      CODE               _Get_Temperature (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     01h     0d1ch     0dc5h    00aah      CODE               _Get_Battery (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     01h     0dc6h     1017h    0252h      CODE               _Put_Memroy (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     01h     1018h     117ch    0165h      CODE               _Get_Memroy (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     01h     117dh     1254h    00d8h      CODE               _Store_Failure_buff (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     01h     1255h     1261h    000dh      CODE               _uart_close (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     01h     1262h     127eh    001dh      CODE               _Uart_Receice_9600 (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     01h     127fh     1296h    0018h      CODE               _Uart_Send_9600 (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     01h     1297h     1b73h    08ddh      CODE               _reivce_data (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     01h     1b74h     1f35h    03c2h      CODE               _Power_ON_OFF (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     01h     1f36h     1f4eh    0019h      CODE               _wait_return (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     01h     1f4fh     1f53h    0005h      CODE               _Gsm_power_off (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     01h     1f54h     1fa1h    004eh      CODE               _Get_Charge (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     01h     1fa2h     1fe8h    0047h      CODE               _show_battery (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     01h     1fe9h     1feeh    0006h      CODE               _Uart_delay (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     01h     1fefh     1ff6h    0008h      CODE               _Send_data (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     02h     0000h     0de4h    0de5h      CODE               _GSM_task (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     02h     0de5h     0e01h    001dh      CODE               _Send_phase (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     02h     0e02h     0e68h    0067h      CODE               _Send_GSM2 (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     02h     0e69h     0f6dh    0105h      CODE               _Send_Failure_buff (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     02h     0f6eh     0f8eh    0021h      CODE               _Send_data_9600 (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     02h     0f8fh     0faah    001ch      CODE               _Receice_one_byte (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     02h     0fabh     1160h    01b6h      CODE               _check_sys_Year (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     02h     1161h     124bh    00ebh      CODE               _run_time (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     02h     124ch     126bh    0020h      CODE               _CROM2PROM (CROM2PROM)
+     02h     126ch     1289h    001eh      CODE               _strlen (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     02h     128ah     1290h    0007h      CODE               _get_len_string (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     02h     1291h     12b1h    0021h      CODE               _wait_100MS (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     02h     12c4h     12e0h    001dh      CODE               _fun_erase_page (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\IAP.OBJ)
+     02h     12e1h     130dh    002dh      CODE               _fun_enable_fwen (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\IAP.OBJ)
+     02h     130eh     133fh    0032h      CODE               _fun_read_word (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\IAP.OBJ)
+     02h     1340h     1373h    0034h      CODE               _fun_read_page_data (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\IAP.OBJ)
+     02h     1374h     13a7h    0034h      CODE               _Show_CLOSE (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     02h     13ach     13dah    002fh      CODE               _Show_usb (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     02h     13dfh     1409h    002bh      CODE               _Gsm_power_reset (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     02h     140ah     1431h    0028h      CODE               _calculate_crc8 (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     02h     1432h     146eh    003dh      CODE               _nbIotSignal (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     02h     146fh     148ch    001eh      CODE               _memset (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     02h     164ah     165dh    0014h      CODE               _Uart_Send (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     02h     1683h     168fh    000dh      CODE               _uart_tx_string (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     02h     169fh     1763h    00c5h      CODE               _getModuleTime (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     02h     17a1h     17bch    001ch      CODE               _stopGSMTask (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     02h     17bdh     17d0h    0014h      CODE               _clnUartBuf (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     02h     17d5h     18c0h    00ech      CODE               _getBloodSuger (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     02h     18c1h     18d9h    0019h      CODE               _builtin_holtek_divmodqi4_isr00 (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     02h     18dah     18efh    0016h      CODE               _strchr (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     02h     18f1h     1921h    0031h      CODE               _getServerCallback (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     02h     1922h     19a0h    007fh      CODE               _getRssi (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     02h     19b5h     19eeh    003ah      CODE               _getIMEI (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     02h     1a0fh     1a2dh    001fh      CODE               _hexToAscii (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     02h     1a2eh     1a88h    005bh      CODE               _Check_NetReg (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     02h     1affh     1b37h    0039h      CODE               _strncmp (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     02h     1b56h     1b9eh    0049h      CODE               _strstr (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     02h     1b9fh     1bc9h    002bh      CODE               _memcpy (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     02h     1bcah     1c00h    0037h      CODE               _builtin_holtek_divmodhi4_isr00 (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     02h     1c01h     1c13h    0013h      CODE               _builtin_holtek_mulhi3_isr00 (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     02h     1c14h     1c56h    0043h      CODE               _builtin_holtek_divmodsi4_isr00 (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     02h     1c57h     1c75h    001fh      CODE               _builtin_holtek_mulsi3_isr00 (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     02h     1c76h     1ceeh    0079h      CODE               _atoi (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     03h     0000h     12c5h    12c6h      CODE               _main (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\G-777G.OBJ)
+     03h     12f0h     1315h    0026h      CODE               @crom (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     03h     1316h     138eh    0079h      CODE               @crom (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     03h     138fh     15cdh    023fh      CODE               @crom (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     00h     0080h     0083h    0004h      DATA     1         @HCCINIT0 (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\G-777G.OBJ)
+     00h     0084h     0084h    0001h      DATA     6         @HCCINIT (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     00h     0085h     0085h    0001h      DATA     939       @data_ra (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0086h     0086h    0001h      DATA     660       @data_rb (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0087h     0087h    0001h      DATA     447       @data_rc (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0088h     0088h    0001h      DATA     780       @data_rd (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0089h     0089h    0001h      DATA     736       @data_re (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     008ah     008ah    0001h      DATA     587       @data_rf (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     008bh     008bh    0001h      DATA     582       @data_rg (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     008ch     008ch    0001h      DATA     28        @data_rh (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     008dh     0092h    0006h      DATA     42.5      ftdata1 (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0093h     0095h    0003h      DATA     6         dtdata (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0096h     009ch    0007h      DATA     14        ftdata2 (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     009dh     009dh    0001h      DATA     2         @data_r120 (isr:ra~rh)
+     00h     009eh     009eh    0001h      DATA     2         @data_r220 (isr:ra~rh)
+     00h     009fh     009fh    0001h      DATA     2         @data_r320 (isr:ra~rh)
+     00h     00a0h     00a0h    0001h      DATA     2         @data_r420 (isr:ra~rh)
+     00h     00a1h     00a1h    0001h      DATA     2         @data_r520 (isr:ra~rh)
+     00h     00a2h     00a2h    0001h      DATA     23        @data_ra20 (isr:ra~rh)
+     00h     00a3h     00a3h    0001h      DATA     3         @data_rb20 (isr:ra~rh)
+     00h     00a4h     00a4h    0001h      DATA     3         @data_rc20 (isr:ra~rh)
+     00h     00a5h     00a5h    0001h      DATA     2         @data_r114 (isr:ra~rh)
+     00h     00a6h     00a6h    0001h      DATA     2         @data_r214 (isr:ra~rh)
+     00h     00a7h     00a7h    0001h      DATA     2         @data_r314 (isr:ra~rh)
+     00h     00a8h     00a8h    0001h      DATA     2         @data_r414 (isr:ra~rh)
+     00h     00a9h     00a9h    0001h      DATA     2         @data_r514 (isr:ra~rh)
+     00h     00aah     00aah    0001h      DATA     5         @data_ra14 (isr:ra~rh)
+
+     Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     00f2h     00f2h    0000h      LOCAL    0         @dummy (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\G-777G.OBJ)
+     00h     00eah     00f1h    0008h      LOCAL    14.75     _main (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\G-777G.OBJ)
+     00h     00adh     00adh    0000h      LOCAL    0         _PORT_init (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\G-777G.OBJ)
+     00h     00adh     00adh    0001h      LOCAL    12        _run_time (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     00h     00adh     00adh    0000h      LOCAL    0         _check_sys_Year (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     00h     00adh     00adh    0000h      LOCAL    0         _builtin_holtek_uitof (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00adh     00adh    0000h      LOCAL    0         _builtin_holtek_ftdiv (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00adh     00adh    0000h      LOCAL    0         _builtin_holtek_ftdecode (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00adh     00adh    0000h      LOCAL    0         _builtin_holtek_ftol (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00adh     00adh    0000h      LOCAL    0         _builtin_holtek_ultof (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00adh     00adh    0000h      LOCAL    0         _builtin_holtek_ftsubadd (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00adh     00adh    0000h      LOCAL    0         _builtin_holtek_ftmul (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00adh     00adh    0000h      LOCAL    0         _Crom2Prom (CROM2PROM)
+     00h     00adh     00adh    0000h      LOCAL    0         _Sys_RESET (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\G-777G.OBJ)
+     00h     00adh     00b2h    0006h      LOCAL    50.167    _memset (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     00h     00afh     00afh    0000h      LOCAL    0         _Show_VER (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     00adh     00aeh    0002h      LOCAL    2         _show_display (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     00adh     00adh    0000h      LOCAL    0         _init_timer_base0 (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\G-777G.OBJ)
+     00h     00aeh     00b2h    0005h      LOCAL    29        _me_delay_ms (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\DELAY.OBJ)
+     00h     00adh     00adh    0001h      LOCAL    3         _me_delay_100us (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\DELAY.OBJ)
+     00h     00b3h     00b6h    0004h      LOCAL    15        _fun_read_page (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\IAP.OBJ)
+     00h     00afh     00b2h    0004h      LOCAL    5         _fun_read_page_data (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\IAP.OBJ)
+     00h     00adh     00aeh    0002h      LOCAL    2         _fun_read_word (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\IAP.OBJ)
+     00h     00adh     00adh    0001h      LOCAL    2         _fun_enable_fwen (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\IAP.OBJ)
+     00h     00adh     00aeh    0002h      LOCAL    15        _fun_erase_page (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\IAP.OBJ)
+     00h     00adh     00b0h    0004h      LOCAL    8         _fun_write_cpage (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\IAP.OBJ)
+     00h     00aeh     00afh    0002h      LOCAL    8         _uart_init (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     00h     00b3h     00b3h    0000h      LOCAL    0         _Show_PC (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     00aeh     00aeh    0001h      LOCAL    3         _Buzzer (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     00h     00c5h     00c5h    0001h      LOCAL    14        _reivce_data (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     00h     00b0h     00b5h    0006h      LOCAL    2.3333    _Uart_Receice_9600 (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     00h     00aeh     00afh    0002h      LOCAL    3         _Receice_one_byte (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     00h     00adh     00adh    0001h      LOCAL    3         _Uart_delay (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     00h     00b0h     00b3h    0004h      LOCAL    10.75     _Uart_Send_9600 (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     00h     00aeh     00afh    0002h      LOCAL    2.5       _Send_data_9600 (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     00h     00adh     00b2h    0006h      LOCAL    6.1667    _builtin_holtek_mulhi3_isr00 (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00adh     00adh    0000h      LOCAL    0         _AD_set (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\AD.OBJ)
+     00h     00adh     00b4h    0008h      LOCAL    2.5       _test_OP (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\AD.OBJ)
+     00h     00bbh     00c4h    000ah      LOCAL    8.3       _get_lowPwd (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\AD.OBJ)
+     00h     00adh     00bah    000eh      LOCAL    47.429    _builtin_holtek_divmodsi4_isr00 (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00adh     00b8h    000ch      LOCAL    28.083    _builtin_holtek_mulsi3_isr00 (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00adh     00b4h    0008h      LOCAL    42.125    _builtin_holtek_divmodhi4_isr00 (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00adh     00adh    0001h      LOCAL    2         _Get_Charge (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     00h     00b3h     00b5h    0003h      LOCAL    4.3333    _key_scan (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\G-777G.OBJ)
+     00h     00c9h     00cch    0004h      LOCAL    6         _Power_ON_OFF (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     00h     00adh     00adh    0000h      LOCAL    0         _OP_set (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\AD.OBJ)
+     00h     00c5h     00c5h    0000h      LOCAL    0         _Get_Battery (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     00h     00adh     00adh    0000h      LOCAL    0         _uart_close (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     00h     00afh     00afh    0000h      LOCAL    0         _displey_EB (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     00adh     00adh    0000h      LOCAL    0         _show_battery (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     00b3h     00b3h    0000h      LOCAL    0         _Show_OFF (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     00c5h     00c8h    0004h      LOCAL    2         _Get_Temperature (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     00h     00b5h     00bah    0006h      LOCAL    24.5      _Show_Big_number (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     00adh     00b1h    0005h      LOCAL    39        _builtin_holtek_divmodqi4_isr00 (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00afh     00afh    0000h      LOCAL    0         _Show_EE (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     00afh     00afh    0000h      LOCAL    0         _Show_Et (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     00bbh     00bbh    0000h      LOCAL    0         _entry_Blood_drop (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\G-777G.OBJ)
+     00h     00bbh     00bbh    0000h      LOCAL    0         _show_sequence (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\G-777G.OBJ)
+     00h     00b3h     00b3h    0000h      LOCAL    0         _Show_OPEN (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     00afh     00afh    0000h      LOCAL    0         _displey_YES (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     00afh     00afh    0000h      LOCAL    0         _displey_test (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     00afh     00afh    0000h      LOCAL    0         _displey_DEL (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     00b7h     00beh    0008h      LOCAL    3.625     _Get_Memroy (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     00h     00afh     00afh    0000h      LOCAL    0         _Show_END (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     00afh     00afh    0000h      LOCAL    0         _Show_000 (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     00b3h     00bdh    000bh      LOCAL    13.182    _strstr (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     00h     00adh     00aeh    0002h      LOCAL    5         _strlen (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     00h     00adh     00b2h    0006h      LOCAL    3         _strncmp (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     00h     00b2h     00b2h    0001h      LOCAL    8         _Update_time (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     00b3h     00b4h    0002h      LOCAL    35        _wait_return (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     00h     00adh     00adh    0001h      LOCAL    5         _nbIotSignal (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     00h     00bbh     00beh    0004h      LOCAL    4         _transformation (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     00b3h     00b3h    0000h      LOCAL    0         _GSM_turn_ON (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     00h     00afh     00afh    0000h      LOCAL    0         _Show_EF (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     00b7h     00c5h    000fh      LOCAL    4.6       _Put_Memroy (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     00h     00cch     00cfh    0004h      LOCAL    5         _Send_GSM2 (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     00h     00adh     00adh    0001h      LOCAL    0         _Send_phase (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     00h     00c4h     00cbh    0008h      LOCAL    12        _GSM_task (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     00h     00b3h     00b3h    0000h      LOCAL    0         _clnUartBuf (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     00h     00b2h     00b3h    0002h      LOCAL    46        _uart_tx_string (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     00h     00aeh     00b1h    0004h      LOCAL    2.5       _Uart_Send (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     00h     00adh     00adh    0001h      LOCAL    2         _Send_data (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     00h     00adh     00adh    0000h      LOCAL    0         _stopGSMTask (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     00h     00bdh     00c3h    0007h      LOCAL    2.7143    _Check_NetReg (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     00h     00adh     00b0h    0004h      LOCAL    10.25     _strchr (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     00h     00b9h     00bch    0004h      LOCAL    8.75      _atoi (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     00h     00aeh     00b4h    0007h      LOCAL    3.2857    _getRssi (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     00h     00b3h     00b5h    0003h      LOCAL    2.3333    _getIMEI (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     00h     00adh     00b2h    0006h      LOCAL    5         _memcpy (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     00h     00beh     00c1h    0004h      LOCAL    7.5       _getModuleTime (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     00h     00adh     00aeh    0002h      LOCAL    6.5       _hexToAscii (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     00h     00b5h     00bch    0008h      LOCAL    3.5       _getBloodSuger (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     00h     00beh     00c0h    0003h      LOCAL    3         _getServerCallback (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     00h     00b7h     00cch    0016h      LOCAL    0.1818    _Store_Failure_buff (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     00h     00d0h     00e9h    001ah      LOCAL    0.6923    _Send_Failure_buff (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     00h     00adh     00adh    0001h      LOCAL    1         _Gsm_power_off (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     00h     00afh     00afh    0000h      LOCAL    0         _displey_EU (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     00adh     00adh    0000h      LOCAL    0         _exit (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\G-777G.OBJ)
+     00h     00adh     00adh    0000h      LOCAL    0         _SysSleep (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     00h     00adh     00adh    0000h      LOCAL    0         @dummy32 (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     00ach     00ach    0001h      LOCAL    14        _isr_timer_base0 (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     00b3h     00b3h    0000h      LOCAL    0         _Show_CLOSE (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     00b3h     00b3h    0000h      LOCAL    0         _Show_usb (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\LCD.OBJ)
+     00h     00b5h     00b5h    0001h      LOCAL    2         _Gsm_power_reset (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\RUNTASK.OBJ)
+     00h     00adh     00b1h    0005h      LOCAL    1.2       _calculate_crc8 (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     00h     00ach     00ach    0000h      LOCAL    0         @dummy20 (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     00h     00abh     00abh    0001h      LOCAL    4         _ISR_UART (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     00h     00b3h     00b4h    0002h      LOCAL    2         _wait_100MS (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+     00h     00afh     00b0h    0002h      LOCAL    1         _get_len_string (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\UART.OBJ)
+
+     Indepentent Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     00adh     00adh    0000h      ILOCAL   0         _AD_Delay (c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\AD.OBJ)
+     00h     00adh     00adh    0000h      ILOCAL   0         _builtin_holtek_ftnorm (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00adh     00adh    0000h      ILOCAL   0         _builtin_holtek_ftinf (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+
+     Public Symbols Information
+     Address            Public by Name
+     0012h              _AD_Delay
+     0278h              _AD_set
+     1b1bh              _Buzzer
+     5a2eh              _Check_NetReg
+     524dh              _Crom2Prom
+     524ch              _Crom2PromNext
+     4000h              _GSM_task
+     1e5ah              _GSM_turn_ON
+     2d1ch              _Get_Battery
+     3f54h              _Get_Charge
+     3018h              _Get_Memroy
+     2c9ah              _Get_Temperature
+     75c8h              _Get_time
+     3f4fh              _Gsm_power_off
+     53dfh              _Gsm_power_reset
+     0120h              _ISR_UART
+     0273h              _OP_set
+     1768h              _PORT_init
+     3b74h              _Power_ON_OFF
+     2dc6h              _Put_Memroy
+     4f8fh              _Receice_one_byte
+     4e69h              _Send_Failure_buff
+     4e02h              _Send_GSM2
+     00cch              _Send_GSM2_2
+     3fefh              _Send_data
+     4f6eh              _Send_data_9600
+     4de5h              _Send_phase
+     1ddeh              _Show_000
+     2000h              _Show_Big_number
+     00b7h              _Show_Big_number_2
+     5374h              _Show_CLOSE
+     1ccfh              _Show_EE
+     1d98h              _Show_EF
+     1e37h              _Show_END
+     1d75h              _Show_Et
+     16f5h              _Show_OFF
+     1e01h              _Show_OPEN
+     1d1ch              _Show_PC
+     1d43h              _Show_VER
+     53ach              _Show_usb
+     7323h              _SoundGroups
+     317dh              _Store_Failure_buff
+     1ff8h              _SysSleep
+     175ah              _Sys_RESET
+     3262h              _Uart_Receice_9600
+     564ah              _Uart_Send
+     327fh              _Uart_Send_9600
+     3fe9h              _Uart_delay
+     2ad9h              _Update_time
+     5c76h              _atoi
+     756ah              _b_O_AfterMeal
+     7578h              _bloodSugarVal
+     5bcah              _builtin_holtek_divmodhi4_isr00
+     0090h              _builtin_holtek_exp1
+     0099h              _builtin_holtek_exp2
+     0092h              _builtin_holtek_floatflag
+     0212h              _builtin_holtek_ftadd
+     0172h              _builtin_holtek_ftdecode1
+     0168h              _builtin_holtek_ftdecode2
+     017eh              _builtin_holtek_ftdiv
+     0018h              _builtin_holtek_ftinf
+     01b0h              _builtin_holtek_ftmul
+     0244h              _builtin_holtek_ftnorm
+     01e5h              _builtin_holtek_ftol
+     0210h              _builtin_holtek_ftsub
+     017ah              _builtin_holtek_ftzero
+     017ch              _builtin_holtek_ftzero1
+     008dh              _builtin_holtek_mant1
+     0093h              _builtin_holtek_mant12p
+     0096h              _builtin_holtek_mant2
+     5c01h              _builtin_holtek_mulhi3_isr00
+     5c57h              _builtin_holtek_mulsi3_isr00
+     009ah              _builtin_holtek_prod
+     0091h              _builtin_holtek_signs
+     5bd3h              _builtin_holtek_udivmodhi4_isr00
+     58c1h              _builtin_holtek_udivmodqi4_isr00
+     5c14h              _builtin_holtek_udivmodsi4_isr00
+     000eh              _builtin_holtek_uitof
+     0002h              _builtin_holtek_ultof
+     540ah              _calculate_crc8
+     7585h              _checkData
+     758fh              _checkTime
+     4fabh              _check_sys_Year
+     57bdh              _clnUartBuf
+     7525h              _crc8_table
+     7569h              _dakuohao
+     731ch              _data_time1
+     7316h              _data_time2
+     1c90h              _displey_DEL
+     1727h              _displey_EB
+     1cf9h              _displey_EU
+     1c3ch              _displey_YES
+     1c68h              _displey_test
+     186ah              _entry_Blood_drop
+     18d8h              _exit
+     52e1h              _fun_enable_fwen
+     52c4h              _fun_erase_page
+     1b31h              _fun_read_page
+     00b6h              _fun_read_page_2
+     5340h              _fun_read_page_data
+     530eh              _fun_read_word
+     1bd0h              _fun_write_cpage
+     57d5h              _getBloodSuger
+     59b5h              _getIMEI
+     569fh              _getModuleTime
+     5922h              _getRssi
+     58f1h              _getServerCallback
+     528ah              _get_len_string
+     037eh              _get_lowPwd
+     00bbh              _get_lowPwd_2
+     5a0fh              _hexToAscii
+     7565h              _huanhang
+     7567h              _huanhangkong
+     0080h              _iSec
+     759ch              _imei
+     1761h              _init_timer_base0
+     0047h              _isr_timer_base0
+     1791h              _key_scan
+     6000h              _main
+     174dh              _me_delay_100us
+     0368h              _me_delay_ms
+     5b9fh              _memcpy
+     546fh              _memset
+     5432h              _nbIotSignal
+     730ah              _number_tabL
+     72fah              _number_tabL2
+     72ffh              _number_tabM
+     7310h              _number_tabR
+     7305h              _number_tabR2
+     3297h              _reivce_data
+     5161h              _run_time
+     3fa2h              _show_battery
+     17cbh              _show_display
+     194dh              _show_sequence
+     72f0h              _small_number_tab
+     7598h              _sn
+     57a1h              _stopGSMTask
+     58dah              _strchr
+     526ch              _strlen
+     5affh              _strncmp
+     5b56h              _strstr
+     027dh              _test_OP
+     1e83h              _transformation
+     3255h              _uart_close
+     1dbbh              _uart_init
+     5683h              _uart_tx_string
+     75a2h              _urlHead
+     5291h              _wait_100MS
+     3f36h              _wait_return
+     00a5h              r114
+     009dh              r120
+     00a6h              r214
+     009eh              r220
+     00a7h              r314
+     009fh              r320
+     00a8h              r414
+     00a0h              r420
+     00a9h              r514
+     00a1h              r520
+     0085h              ra
+     00aah              ra14
+     00a2h              ra20
+     0086h              rb
+     00a3h              rb20
+     0087h              rc
+     00a4h              rc20
+     0088h              rd
+     0089h              re
+     008ah              rf
+     008bh              rg
+     008ch              rh
+     1753h              startup_value_1
+
+     Address            Public by Value
+     0002h              _builtin_holtek_ultof
+     000eh              _builtin_holtek_uitof
+     0012h              _AD_Delay
+     0018h              _builtin_holtek_ftinf
+     0047h              _isr_timer_base0
+     0080h              _iSec
+     0085h              ra
+     0086h              rb
+     0087h              rc
+     0088h              rd
+     0089h              re
+     008ah              rf
+     008bh              rg
+     008ch              rh
+     008dh              _builtin_holtek_mant1
+     0090h              _builtin_holtek_exp1
+     0091h              _builtin_holtek_signs
+     0092h              _builtin_holtek_floatflag
+     0093h              _builtin_holtek_mant12p
+     0096h              _builtin_holtek_mant2
+     0099h              _builtin_holtek_exp2
+     009ah              _builtin_holtek_prod
+     009dh              r120
+     009eh              r220
+     009fh              r320
+     00a0h              r420
+     00a1h              r520
+     00a2h              ra20
+     00a3h              rb20
+     00a4h              rc20
+     00a5h              r114
+     00a6h              r214
+     00a7h              r314
+     00a8h              r414
+     00a9h              r514
+     00aah              ra14
+     00b6h              _fun_read_page_2
+     00b7h              _Show_Big_number_2
+     00bbh              _get_lowPwd_2
+     00cch              _Send_GSM2_2
+     0120h              _ISR_UART
+     0168h              _builtin_holtek_ftdecode2
+     0172h              _builtin_holtek_ftdecode1
+     017ah              _builtin_holtek_ftzero
+     017ch              _builtin_holtek_ftzero1
+     017eh              _builtin_holtek_ftdiv
+     01b0h              _builtin_holtek_ftmul
+     01e5h              _builtin_holtek_ftol
+     0210h              _builtin_holtek_ftsub
+     0212h              _builtin_holtek_ftadd
+     0244h              _builtin_holtek_ftnorm
+     0273h              _OP_set
+     0278h              _AD_set
+     027dh              _test_OP
+     0368h              _me_delay_ms
+     037eh              _get_lowPwd
+     16f5h              _Show_OFF
+     1727h              _displey_EB
+     174dh              _me_delay_100us
+     1753h              startup_value_1
+     175ah              _Sys_RESET
+     1761h              _init_timer_base0
+     1768h              _PORT_init
+     1791h              _key_scan
+     17cbh              _show_display
+     186ah              _entry_Blood_drop
+     18d8h              _exit
+     194dh              _show_sequence
+     1b1bh              _Buzzer
+     1b31h              _fun_read_page
+     1bd0h              _fun_write_cpage
+     1c3ch              _displey_YES
+     1c68h              _displey_test
+     1c90h              _displey_DEL
+     1ccfh              _Show_EE
+     1cf9h              _displey_EU
+     1d1ch              _Show_PC
+     1d43h              _Show_VER
+     1d75h              _Show_Et
+     1d98h              _Show_EF
+     1dbbh              _uart_init
+     1ddeh              _Show_000
+     1e01h              _Show_OPEN
+     1e37h              _Show_END
+     1e5ah              _GSM_turn_ON
+     1e83h              _transformation
+     1ff8h              _SysSleep
+     2000h              _Show_Big_number
+     2ad9h              _Update_time
+     2c9ah              _Get_Temperature
+     2d1ch              _Get_Battery
+     2dc6h              _Put_Memroy
+     3018h              _Get_Memroy
+     317dh              _Store_Failure_buff
+     3255h              _uart_close
+     3262h              _Uart_Receice_9600
+     327fh              _Uart_Send_9600
+     3297h              _reivce_data
+     3b74h              _Power_ON_OFF
+     3f36h              _wait_return
+     3f4fh              _Gsm_power_off
+     3f54h              _Get_Charge
+     3fa2h              _show_battery
+     3fe9h              _Uart_delay
+     3fefh              _Send_data
+     4000h              _GSM_task
+     4de5h              _Send_phase
+     4e02h              _Send_GSM2
+     4e69h              _Send_Failure_buff
+     4f6eh              _Send_data_9600
+     4f8fh              _Receice_one_byte
+     4fabh              _check_sys_Year
+     5161h              _run_time
+     524ch              _Crom2PromNext
+     524dh              _Crom2Prom
+     526ch              _strlen
+     528ah              _get_len_string
+     5291h              _wait_100MS
+     52c4h              _fun_erase_page
+     52e1h              _fun_enable_fwen
+     530eh              _fun_read_word
+     5340h              _fun_read_page_data
+     5374h              _Show_CLOSE
+     53ach              _Show_usb
+     53dfh              _Gsm_power_reset
+     540ah              _calculate_crc8
+     5432h              _nbIotSignal
+     546fh              _memset
+     564ah              _Uart_Send
+     5683h              _uart_tx_string
+     569fh              _getModuleTime
+     57a1h              _stopGSMTask
+     57bdh              _clnUartBuf
+     57d5h              _getBloodSuger
+     58c1h              _builtin_holtek_udivmodqi4_isr00
+     58dah              _strchr
+     58f1h              _getServerCallback
+     5922h              _getRssi
+     59b5h              _getIMEI
+     5a0fh              _hexToAscii
+     5a2eh              _Check_NetReg
+     5affh              _strncmp
+     5b56h              _strstr
+     5b9fh              _memcpy
+     5bcah              _builtin_holtek_divmodhi4_isr00
+     5bd3h              _builtin_holtek_udivmodhi4_isr00
+     5c01h              _builtin_holtek_mulhi3_isr00
+     5c14h              _builtin_holtek_udivmodsi4_isr00
+     5c57h              _builtin_holtek_mulsi3_isr00
+     5c76h              _atoi
+     6000h              _main
+     72f0h              _small_number_tab
+     72fah              _number_tabL2
+     72ffh              _number_tabM
+     7305h              _number_tabR2
+     730ah              _number_tabL
+     7310h              _number_tabR
+     7316h              _data_time2
+     731ch              _data_time1
+     7323h              _SoundGroups
+     7525h              _crc8_table
+     7565h              _huanhang
+     7567h              _huanhangkong
+     7569h              _dakuohao
+     756ah              _b_O_AfterMeal
+     7578h              _bloodSugarVal
+     7585h              _checkData
+     758fh              _checkTime
+     7598h              _sn
+     759ch              _imei
+     75a2h              _urlHead
+     75c8h              _Get_time
+
+
+ROM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       2000h     1f50h    97%
+     01h       2000h     1ff3h    99%
+     02h       2000h     19dah    80%
+     03h       2000h     15a4h    67%
+     Total     8000h     6ec1h    86%
+
+RAM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       0080h     0072h    89%
+     02h       0080h     0080h    100%
+     03h       0080h     0069h    82%
+     04h       0080h     002ch    34%
+     Total     0200h     0187h    76%
+
+Use Stack Count
+_main: 7
+_isr_timer_base0: 0
+_Show_CLOSE: 2
+_Show_usb: 2
+_Gsm_power_reset: 3
+_calculate_crc8: 1
+_ISR_UART: 0
+_wait_100MS: 2
+_get_len_string: 2
+
+Call Tree
+    @dummy
+        _main (0)
+            _PORT_init (1)
+            _run_time (1)
+                _check_sys_Year (2)
+                    _builtin_holtek_uitof (3)
+                    _builtin_holtek_ftdiv (3)
+                        _builtin_holtek_ftdecode (4)
+                    _builtin_holtek_ftol (3)
+                        _builtin_holtek_ftdecode (4)
+                    _builtin_holtek_ultof (3)
+                    _builtin_holtek_ftsubadd (3)
+                        _builtin_holtek_ftdecode (4)
+                    _builtin_holtek_ftmul (3)
+                        _builtin_holtek_ftdecode (4)
+                _Crom2Prom (2)
+            _Sys_RESET (1)
+            _memset (1)
+            _Show_VER (1)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _init_timer_base0 (1)
+            _me_delay_ms (1)
+                _me_delay_100us (2)
+            _fun_read_page (1)
+                _fun_read_page_data (2)
+                    _fun_read_word (3)
+                _Crom2Prom (2)
+            _fun_enable_fwen (1)
+            _me_delay_100us (1)
+            _fun_erase_page (1)
+            _fun_write_cpage (1)
+                _Crom2Prom (2)
+            _show_display (1)
+                _Crom2Prom (2)
+            _uart_init (1)
+                _me_delay_100us (2)
+            _Show_PC (1)
+                _memset (2)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _Buzzer (1)
+                _me_delay_100us (2)
+            _reivce_data (1)
+                _Uart_Receice_9600 (2)
+                    _Receice_one_byte (3)
+                        _Uart_delay (4)
+                _Uart_Send_9600 (2)
+                    _Crom2Prom (3)
+                    _Send_data_9600 (3)
+                        _Uart_delay (4)
+                _me_delay_ms (2)
+                    _me_delay_100us (3)
+                _builtin_holtek_mulhi3_isr00 (2)
+                _memset (2)
+                _AD_set (2)
+                _test_OP (2)
+                _get_lowPwd (2)
+                    _AD_set (3)
+                    _me_delay_ms (3)
+                        _me_delay_100us (4)
+                    _builtin_holtek_divmodsi4_isr00 (3)
+                    _builtin_holtek_mulsi3_isr00 (3)
+                _builtin_holtek_ultof (2)
+                _builtin_holtek_ftdiv (2)
+                    _builtin_holtek_ftdecode (3)
+                _builtin_holtek_ftmul (2)
+                    _builtin_holtek_ftdecode (3)
+                _builtin_holtek_ftol (2)
+                    _builtin_holtek_ftdecode (3)
+                _builtin_holtek_divmodhi4_isr00 (2)
+                _uart_init (2)
+                    _me_delay_100us (3)
+                _Crom2Prom (2)
+                _fun_enable_fwen (2)
+                _me_delay_100us (2)
+                _fun_erase_page (2)
+                _fun_write_cpage (2)
+                    _Crom2Prom (3)
+            _Get_Charge (1)
+            _key_scan (1)
+                _me_delay_ms (2)
+                    _me_delay_100us (3)
+            _Power_ON_OFF (1)
+                _uart_init (2)
+                    _me_delay_100us (3)
+                _OP_set (2)
+                _memset (2)
+                _show_display (2)
+                    _Crom2Prom (3)
+                _fun_read_page (2)
+                    _fun_read_page_data (3)
+                        _fun_read_word (4)
+                    _Crom2Prom (3)
+                _me_delay_ms (2)
+                    _me_delay_100us (3)
+                _Get_Battery (2)
+                    _get_lowPwd (3)
+                        _AD_set (4)
+                        _me_delay_ms (4)
+                            _me_delay_100us (5)
+                        _builtin_holtek_divmodsi4_isr00 (4)
+                        _builtin_holtek_mulsi3_isr00 (4)
+                _uart_close (2)
+                _displey_EB (2)
+                    _show_battery (3)
+                    _show_display (3)
+                        _Crom2Prom (4)
+                _Show_OFF (2)
+                    _memset (3)
+                    _show_battery (3)
+                    _show_display (3)
+                        _Crom2Prom (4)
+                _Get_Temperature (2)
+                    _get_lowPwd (3)
+                        _AD_set (4)
+                        _me_delay_ms (4)
+                            _me_delay_100us (5)
+                        _builtin_holtek_divmodsi4_isr00 (4)
+                        _builtin_holtek_mulsi3_isr00 (4)
+                    _Crom2Prom (3)
+                    _Crom2Prom (3)
+            _Show_Big_number (1)
+                _Crom2Prom (2)
+                _builtin_holtek_divmodqi4_isr00 (2)
+                _Crom2Prom (2)
+                _builtin_holtek_divmodhi4_isr00 (2)
+                _builtin_holtek_mulhi3_isr00 (2)
+                _show_battery (2)
+            _show_battery (1)
+            _OP_set (1)
+            _Get_Battery (1)
+                _get_lowPwd (2)
+                    _AD_set (3)
+                    _me_delay_ms (3)
+                        _me_delay_100us (4)
+                    _builtin_holtek_divmodsi4_isr00 (3)
+                    _builtin_holtek_mulsi3_isr00 (3)
+            _Show_EE (1)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _get_lowPwd (1)
+                _AD_set (2)
+                _me_delay_ms (2)
+                    _me_delay_100us (3)
+                _builtin_holtek_divmodsi4_isr00 (2)
+                _builtin_holtek_mulsi3_isr00 (2)
+            _displey_EB (1)
+                _show_battery (2)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _Show_OFF (1)
+                _memset (2)
+                _show_battery (2)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _Get_Temperature (1)
+                _get_lowPwd (2)
+                    _AD_set (3)
+                    _me_delay_ms (3)
+                        _me_delay_100us (4)
+                    _builtin_holtek_divmodsi4_isr00 (3)
+                    _builtin_holtek_mulsi3_isr00 (3)
+                _Crom2Prom (2)
+                _Crom2Prom (2)
+            _Show_Et (1)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _entry_Blood_drop (1)
+                _memset (2)
+                _show_display (2)
+                    _Crom2Prom (3)
+                _AD_set (2)
+                _me_delay_ms (2)
+                    _me_delay_100us (3)
+                _Show_Big_number (2)
+                    _Crom2Prom (3)
+                    _builtin_holtek_divmodqi4_isr00 (3)
+                    _Crom2Prom (3)
+                    _builtin_holtek_divmodhi4_isr00 (3)
+                    _builtin_holtek_mulhi3_isr00 (3)
+                    _show_battery (3)
+            _show_sequence (1)
+                _builtin_holtek_divmodsi4_isr00 (2)
+                _Show_Big_number (2)
+                    _Crom2Prom (3)
+                    _builtin_holtek_divmodqi4_isr00 (3)
+                    _Crom2Prom (3)
+                    _builtin_holtek_divmodhi4_isr00 (3)
+                    _builtin_holtek_mulhi3_isr00 (3)
+                    _show_battery (3)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _Show_OPEN (1)
+                _memset (2)
+                _show_battery (2)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _displey_YES (1)
+                _show_battery (2)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _displey_test (1)
+                _show_battery (2)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _displey_DEL (1)
+                _show_battery (2)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _Get_Memroy (1)
+                _builtin_holtek_divmodhi4_isr00 (2)
+                _memset (2)
+                _fun_read_page (2)
+                    _fun_read_page_data (3)
+                        _fun_read_word (4)
+                    _Crom2Prom (3)
+                _Crom2Prom (2)
+            _Show_END (1)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _Show_000 (1)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _strstr (1)
+                _Crom2Prom (2)
+                _strlen (2)
+                    _Crom2Prom (3)
+                _strncmp (2)
+                    _Crom2Prom (3)
+            _Update_time (1)
+                _builtin_holtek_divmodqi4_isr00 (2)
+                _Crom2Prom (2)
+                _Crom2Prom (2)
+            _wait_return (1)
+                _nbIotSignal (2)
+                _show_display (2)
+                    _Crom2Prom (3)
+                _me_delay_ms (2)
+                    _me_delay_100us (3)
+            _transformation (1)
+                _builtin_holtek_mulsi3_isr00 (2)
+                _builtin_holtek_divmodsi4_isr00 (2)
+            _GSM_turn_ON (1)
+                _me_delay_ms (2)
+                    _me_delay_100us (3)
+                _uart_init (2)
+                    _me_delay_100us (3)
+            _Show_EF (1)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _Put_Memroy (1)
+                _builtin_holtek_divmodhi4_isr00 (2)
+                _fun_read_page (2)
+                    _fun_read_page_data (3)
+                        _fun_read_word (4)
+                    _Crom2Prom (3)
+                _me_delay_ms (2)
+                    _me_delay_100us (3)
+                _Crom2Prom (2)
+                _fun_enable_fwen (2)
+                _me_delay_100us (2)
+                _fun_erase_page (2)
+                _fun_write_cpage (2)
+                    _Crom2Prom (3)
+            _Send_GSM2 (1)
+                _Send_phase (2)
+                _GSM_task (2)
+                    _clnUartBuf (3)
+                        _memset (4)
+                    _uart_tx_string (3)
+                        _strlen (4)
+                            _Crom2Prom (5)
+                        _Uart_Send (4)
+                            _Crom2Prom (5)
+                            _Send_data (5)
+                    _wait_return (3)
+                        _nbIotSignal (4)
+                        _show_display (4)
+                            _Crom2Prom (5)
+                        _me_delay_ms (4)
+                            _me_delay_100us (5)
+                    _strstr (3)
+                        _Crom2Prom (4)
+                        _strlen (4)
+                            _Crom2Prom (5)
+                        _strncmp (4)
+                            _Crom2Prom (5)
+                    _stopGSMTask (3)
+                    _Check_NetReg (3)
+                        _strchr (4)
+                            _Crom2Prom (5)
+                        _atoi (4)
+                            _Crom2Prom (5)
+                            _builtin_holtek_mulsi3_isr00 (5)
+                        _Crom2Prom (4)
+                    _getRssi (3)
+                        _Crom2Prom (4)
+                        _nbIotSignal (4)
+                    _getIMEI (3)
+                        _memset (4)
+                        _memcpy (4)
+                            _Crom2Prom (5)
+                    _getModuleTime (3)
+                        _strstr (4)
+                            _Crom2Prom (5)
+                            _strlen (5)
+                                _Crom2Prom (6)
+                            _strncmp (5)
+                                _Crom2Prom (6)
+                        _strchr (4)
+                            _Crom2Prom (5)
+                        _atoi (4)
+                            _Crom2Prom (5)
+                            _builtin_holtek_mulsi3_isr00 (5)
+                    _memset (3)
+                    _hexToAscii (3)
+                    _builtin_holtek_divmodsi4_isr00 (3)
+                    _builtin_holtek_divmodhi4_isr00 (3)
+                    _builtin_holtek_divmodqi4_isr00 (3)
+                    _Get_Memroy (3)
+                        _builtin_holtek_divmodhi4_isr00 (4)
+                        _memset (4)
+                        _fun_read_page (4)
+                            _fun_read_page_data (5)
+                                _fun_read_word (6)
+                            _Crom2Prom (5)
+                        _Crom2Prom (4)
+                    _builtin_holtek_divmodhi4_isr00 (3)
+                    _getBloodSuger (3)
+                        _builtin_holtek_mulhi3_isr00 (4)
+                        _builtin_holtek_divmodhi4_isr00 (4)
+                        _memcpy (4)
+                            _Crom2Prom (5)
+                    _memcpy (3)
+                        _Crom2Prom (4)
+                    _getServerCallback (3)
+                        _strstr (4)
+                            _Crom2Prom (5)
+                            _strlen (5)
+                                _Crom2Prom (6)
+                            _strncmp (5)
+                                _Crom2Prom (6)
+                _memset (2)
+            _Store_Failure_buff (1)
+                _memset (2)
+                _fun_read_page (2)
+                    _fun_read_page_data (3)
+                        _fun_read_word (4)
+                    _Crom2Prom (3)
+                _Crom2Prom (2)
+                _Crom2Prom (2)
+                _fun_enable_fwen (2)
+                _me_delay_100us (2)
+                _fun_erase_page (2)
+                _fun_write_cpage (2)
+                    _Crom2Prom (3)
+            _Send_Failure_buff (1)
+                _memset (2)
+                _fun_read_page (2)
+                    _fun_read_page_data (3)
+                        _fun_read_word (4)
+                    _Crom2Prom (3)
+                _Crom2Prom (2)
+                _Crom2Prom (2)
+                _Send_GSM2 (2)
+                    _Send_phase (3)
+                    _GSM_task (3)
+                        _clnUartBuf (4)
+                            _memset (5)
+                        _uart_tx_string (4)
+                            _strlen (5)
+                                _Crom2Prom (6)
+                            _Uart_Send (5)
+                                _Crom2Prom (6)
+                                _Send_data (6)
+                        _wait_return (4)
+                            _nbIotSignal (5)
+                            _show_display (5)
+                                _Crom2Prom (6)
+                            _me_delay_ms (5)
+                                _me_delay_100us (6)
+                        _strstr (4)
+                            _Crom2Prom (5)
+                            _strlen (5)
+                                _Crom2Prom (6)
+                            _strncmp (5)
+                                _Crom2Prom (6)
+                        _stopGSMTask (4)
+                        _Check_NetReg (4)
+                            _strchr (5)
+                                _Crom2Prom (6)
+                            _atoi (5)
+                                _Crom2Prom (6)
+                                _builtin_holtek_mulsi3_isr00 (6)
+                            _Crom2Prom (5)
+                        _getRssi (4)
+                            _Crom2Prom (5)
+                            _nbIotSignal (5)
+                        _getIMEI (4)
+                            _memset (5)
+                            _memcpy (5)
+                                _Crom2Prom (6)
+                        _getModuleTime (4)
+                            _strstr (5)
+                                _Crom2Prom (6)
+                                _strlen (6)
+                                    _Crom2Prom (7)
+                                _strncmp (6)
+                                    _Crom2Prom (7)
+                            _strchr (5)
+                                _Crom2Prom (6)
+                            _atoi (5)
+                                _Crom2Prom (6)
+                                _builtin_holtek_mulsi3_isr00 (6)
+                        _memset (4)
+                        _hexToAscii (4)
+                        _builtin_holtek_divmodsi4_isr00 (4)
+                        _builtin_holtek_divmodhi4_isr00 (4)
+                        _builtin_holtek_divmodqi4_isr00 (4)
+                        _Get_Memroy (4)
+                            _builtin_holtek_divmodhi4_isr00 (5)
+                            _memset (5)
+                            _fun_read_page (5)
+                                _fun_read_page_data (6)
+                                    _fun_read_word (7)
+                                _Crom2Prom (6)
+                            _Crom2Prom (5)
+                        _builtin_holtek_divmodhi4_isr00 (4)
+                        _getBloodSuger (4)
+                            _builtin_holtek_mulhi3_isr00 (5)
+                            _builtin_holtek_divmodhi4_isr00 (5)
+                            _memcpy (5)
+                                _Crom2Prom (6)
+                        _memcpy (4)
+                            _Crom2Prom (5)
+                        _getServerCallback (4)
+                            _strstr (5)
+                                _Crom2Prom (6)
+                                _strlen (6)
+                                    _Crom2Prom (7)
+                                _strncmp (6)
+                                    _Crom2Prom (7)
+                    _memset (3)
+                _me_delay_ms (2)
+                    _me_delay_100us (3)
+                _fun_enable_fwen (2)
+                _me_delay_100us (2)
+                _fun_erase_page (2)
+                _fun_write_cpage (2)
+                    _Crom2Prom (3)
+            _Gsm_power_off (1)
+            _displey_EU (1)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _exit (1)
+            _SysSleep (1)
+                _uart_close (2)
+    @dummy32
+        _isr_timer_base0 (0)
+    _Show_CLOSE
+        _memset (0)
+        _show_battery (0)
+        _show_display (0)
+            _Crom2Prom (1)
+    _Show_usb
+        _memset (0)
+        _show_display (0)
+            _Crom2Prom (1)
+    _Gsm_power_reset
+        _wait_return (0)
+            _nbIotSignal (1)
+            _show_display (1)
+                _Crom2Prom (2)
+            _me_delay_ms (1)
+                _me_delay_100us (2)
+        _GSM_turn_ON (0)
+            _me_delay_ms (1)
+                _me_delay_100us (2)
+            _uart_init (1)
+                _me_delay_100us (2)
+        _uart_init (0)
+            _me_delay_100us (1)
+    _calculate_crc8
+        _Crom2Prom (0)
+    @dummy20
+        _ISR_UART (0)
+    _wait_100MS
+        _show_battery (0)
+        _me_delay_ms (0)
+            _me_delay_100us (1)
+    _get_len_string
+        _strlen (0)
+            _Crom2Prom (1)
+
+HLINK : 程序的开始执行点在程序段'@code'（地址0）。定义在'c:\users\administrator\desktop\sample for usa\g-777g-usa-bg95eseye\G-777G.OBJ' 文件中
+
+错误总数 : 0  警告总数 : 0

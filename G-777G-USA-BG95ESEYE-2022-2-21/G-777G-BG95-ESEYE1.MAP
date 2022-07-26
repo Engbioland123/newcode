@@ -1,0 +1,1219 @@
+
+连接器　版本8.7.7.190806
+Input Object File: f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\AD.OBJ
+Input Object File: f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\DELAY.OBJ
+Input Object File: f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\G-777G.OBJ
+Input Object File: f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\IAP.OBJ
+Input Object File: f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ
+Input Object File: f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ
+Input Object File: f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ
+Input Object File: f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\STARTUP1_L.OBJ
+
+Input Library File: E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB
+Input Library File: E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib
+Input Library File: F:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\45F5601.lib
+
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0000h     0001h    0002h      CODE               @code (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\G-777G.OBJ)
+     00h     0002h     000dh    000ch      CODE               ltofaz (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     000eh     0011h    0004h      CODE               itofaz (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0012h     0012h    0001h      CODE               _AD_Delay (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\AD.OBJ)
+     00h     0014h     0017h    0004h      CODE               @ISR_UART_code (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     0018h     001dh    0006h      CODE               _builtin_holtek_ftinf (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0020h     0023h    0004h      CODE               @isr_timer_base0_code (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     0024h     0046h    0023h      CODE               @start (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\G-777G.OBJ)
+     00h     0047h     012dh    00e7h      CODE               _isr_timer_base0 (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     012eh     0175h    0048h      CODE               _ISR_UART (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     0176h     018bh    0016h      CODE               @builtin_holtek_ftdecode (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     018ch     01bdh    0032h      CODE               _builtin_holtek_ftdiv (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     01beh     01f2h    0035h      CODE               _builtin_holtek_ftmul (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     01f3h     021dh    002bh      CODE               @builtin_holtek_ftol (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     021eh     0251h    0034h      CODE               @builtin_holtek_ftsubadd (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0252h     0280h    002fh      CODE               _builtin_holtek_ftnorm (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0281h     0285h    0005h      CODE               _OP_set (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\AD.OBJ)
+     00h     0286h     028ah    0005h      CODE               _AD_set (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\AD.OBJ)
+     00h     028bh     0375h    00ebh      CODE               _test_OP (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\AD.OBJ)
+     00h     0376h     038bh    0016h      CODE               _me_delay_ms (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\DELAY.OBJ)
+     00h     038ch     0802h    0477h      CODE               _get_lowPwd (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\AD.OBJ)
+     00h     0803h     0812h    0010h      CODE               _Buzzer (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ)
+     00h     0813h     0819h    0007h      CODE               _me_delay_100us (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\DELAY.OBJ)
+     00h     081ah     081dh    0004h      CODE               @ROMDATA_BASE (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\STARTUP1_L.OBJ)
+     00h     081eh     0824h    0007h      CODE               _Sys_RESET (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\G-777G.OBJ)
+     00h     0825h     082bh    0007h      CODE               _init_timer_base0 (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\G-777G.OBJ)
+     00h     082ch     0854h    0029h      CODE               _PORT_init (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\G-777G.OBJ)
+     00h     0855h     0889h    0035h      CODE               _key_scan (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\G-777G.OBJ)
+     00h     088ah     089bh    0012h      CODE               @crom (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\G-777G.OBJ)
+     00h     089ch     093ah    009fh      CODE               _show_display (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     093bh     093fh    0005h      CODE               _Gsm_power_off (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ)
+     00h     0940h     137ch    0a3dh      CODE               _Show_Big_number (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     137dh     13dah    005eh      CODE               _entry_Blood_drop (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\G-777G.OBJ)
+     00h     13dbh     13fdh    0023h      CODE               _Show_Et (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     13feh     1473h    0076h      CODE               _Get_Temperature (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ)
+     00h     1480h     14f4h    0075h      CODE               _exit (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\G-777G.OBJ)
+     00h     14f5h     16c0h    01cch      CODE               _show_sequence (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\G-777G.OBJ)
+     00h     16d7h     1769h    0093h      CODE               _fun_read_page (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\IAP.OBJ)
+     00h     1776h     17e1h    006ch      CODE               _fun_write_cpage (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\IAP.OBJ)
+     00h     17e2h     1807h    0026h      CODE               _displey_YES (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     180eh     1833h    0026h      CODE               _displey_test (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     1836h     1874h    003fh      CODE               _displey_DEL (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     1875h     189ah    0026h      CODE               _displey_EB (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     189fh     18c1h    0023h      CODE               _displey_EU (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     18c2h     18f3h    0032h      CODE               _Show_OFF (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     18f4h     1916h    0023h      CODE               _Show_EE (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     191bh     193dh    0023h      CODE               _Show_EF (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     193eh     1958h    001bh      CODE               _Uart_Receice_9600 (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     1961h     1983h    0023h      CODE               _Show_000 (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     1984h     19b5h    0032h      CODE               _Show_OPEN (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     19bah     19dch    0023h      CODE               _Show_END (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     19ddh     1a03h    0027h      CODE               _Show_PC (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     1a06h     1b15h    0110h      CODE               _transformation (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     1b2ah     1ccah    01a1h      CODE               _Update_time (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     1ccbh     1ce9h    001fh      CODE               _builtin_holtek_mulsi3_isr00 (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     1ceah     1d91h    00a8h      CODE               _Get_Battery (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ)
+     00h     1d92h     1db3h    0022h      CODE               _uart_init (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     1db4h     1dd2h    001fh      CODE               _GSM_turn_ON (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ)
+     00h     1e64h     1fb0h    014dh      CODE               _Get_Memroy (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ)
+     00h     1fc7h     1fd3h    000dh      CODE               _uart_close (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     1fd4h     1fd8h    0005h      CODE               _SysSleep (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ)
+     01h     0000h     022dh    022eh      CODE               _Put_Memroy (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ)
+     01h     022eh     0233h    0006h      CODE               _Uart_delay (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     01h     0234h     0248h    0015h      CODE               _Send_data_9600 (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     01h     0249h     024fh    0007h      CODE               _get_len_string (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     01h     0252h     030dh    00bch      CODE               _Store_Failure_buff (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ)
+     01h     030eh     031dh    0010h      CODE               _Uart_Send_9600 (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     01h     032ah     03c5h    009ch      CODE               _Send_GSM2 (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     01h     03c6h     04cah    0105h      CODE               _Send_Failure_buff (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ)
+     01h     04cbh     04deh    0014h      CODE               _Receice_one_byte (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     01h     04dfh     0d99h    08bbh      CODE               _reivce_data (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ)
+     01h     0d9ah     0dd3h    003ah      CODE               _Show_VER (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     01h     0dd4h     0de6h    0013h      CODE               _CROM2PROM (CROM2PROM)
+     01h     0dfah     11a1h    03a8h      CODE               _Power_ON_OFF (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ)
+     01h     11a2h     128ch    00ebh      CODE               _run_time (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ)
+     01h     128dh     12aah    001eh      CODE               _strlen (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     01h     12b9h     12c5h    000dh      CODE               _uart_tx_string (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     01h     12c6h     12dfh    001ah      CODE               _wait_return (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     01h     12e0h     132dh    004eh      CODE               _Get_Charge (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ)
+     01h     132eh     1374h    0047h      CODE               _show_battery (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     01h     1375h     138ah    0016h      CODE               _wait_100MS (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     01h     138bh     13b2h    0028h      CODE               _calculate_crc8 (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     01h     13bbh     13d7h    001dh      CODE               _fun_erase_page (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\IAP.OBJ)
+     01h     13d8h     1404h    002dh      CODE               _fun_enable_fwen (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\IAP.OBJ)
+     01h     1405h     1436h    0032h      CODE               _fun_read_word (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\IAP.OBJ)
+     01h     1437h     146ah    0034h      CODE               _fun_read_page_data (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\IAP.OBJ)
+     01h     146bh     149ah    0030h      CODE               _Show_CLOSE (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     01h     149fh     14cdh    002fh      CODE               _Show_usb (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     01h     14d2h     14f7h    0026h      CODE               @crom (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     01h     14f8h     1516h    001fh      CODE               _Gsm_power_reset (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ)
+     01h     1517h     16cch    01b6h      CODE               _check_sys_Year (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ)
+     01h     16cdh     1745h    0079h      CODE               @crom (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ)
+     01h     1746h     1782h    003dh      CODE               _nbIotSignal (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     01h     1783h     17a0h    001eh      CODE               _memset (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     01h     17a5h     17ach    0008h      CODE               _Send_data (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     01h     17adh     17bch    0010h      CODE               _Uart_Send (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     01h     17e2h     1a8bh    02aah      CODE               @crom (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     01h     1a8ch     1c4ch    01c1h      CODE               _getModuleTime (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     01h     1c8eh     1db9h    012ch      CODE               _getBloodSuger (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     01h     1dbah     1df6h    003dh      CODE               _getServerCallback (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     01h     1df7h     1e75h    007fh      CODE               _getRssi (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     01h     1e7eh     1ebbh    003eh      CODE               _getIMEI (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     01h     1ebch     1ecfh    0014h      CODE               _clnUartBuf (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     01h     1ed8h     1ef6h    001fh      CODE               _hexToAscii (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     01h     1ef7h     1f69h    0073h      CODE               _Check_NetReg (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     01h     1f6ah     1f85h    001ch      CODE               _stopGSMTask (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     01h     1f86h     1fa2h    001dh      CODE               _Send_phase (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     02h     0000h     13f3h    13f4h      CODE               _main (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\G-777G.OBJ)
+     02h     13f8h     143ch    0045h      CODE               _strncmp (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     02h     143dh     1491h    0055h      CODE               _strstr (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     02h     1492h     14c0h    002fh      CODE               _memcpy (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     02h     14c1h     14f7h    0037h      CODE               _builtin_holtek_divmodhi4_isr00 (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     02h     14f8h     150ah    0013h      CODE               _builtin_holtek_mulhi3_isr00 (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     02h     150bh     1523h    0019h      CODE               _builtin_holtek_divmodqi4_isr00 (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     02h     1524h     1566h    0043h      CODE               _builtin_holtek_divmodsi4_isr00 (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     02h     1567h     15e9h    0083h      CODE               _atoi (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     02h     15eah     1603h    001ah      CODE               _strchr (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     02h     1604h     1a36h    0433h      CODE               _Calculate_blood (F:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\45F5601.lib)
+     02h     1a37h     1e68h    0432h      CODE               _Calculate_contrul (F:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\45F5601.lib)
+     03h     0000h     1091h    1092h      CODE               _GSM_task (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     0080h     0085h    0006h      DATA     42.5      ftdata1 (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0086h     0088h    0003h      DATA     6         dtdata (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0089h     008fh    0007h      DATA     14        ftdata2 (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0090h     0090h    0001h      DATA     2         @data_r220 (isr:ra~rh)
+     00h     0091h     0091h    0001h      DATA     2         @data_r320 (isr:ra~rh)
+     00h     0092h     0092h    0001h      DATA     2         @data_r420 (isr:ra~rh)
+     00h     0093h     0093h    0001h      DATA     2         @data_r520 (isr:ra~rh)
+     00h     0094h     0094h    0001h      DATA     21        @data_ra20 (isr:ra~rh)
+     00h     0095h     0095h    0001h      DATA     6         @data_rb20 (isr:ra~rh)
+     00h     0096h     0096h    0001h      DATA     6         @data_rc20 (isr:ra~rh)
+     00h     0097h     0097h    0001h      DATA     2         @data_r114 (isr:ra~rh)
+     00h     0098h     0098h    0001h      DATA     2         @data_r214 (isr:ra~rh)
+     00h     0099h     0099h    0001h      DATA     2         @data_r314 (isr:ra~rh)
+     00h     009ah     009ah    0001h      DATA     2         @data_r414 (isr:ra~rh)
+     00h     009bh     009bh    0001h      DATA     2         @data_r514 (isr:ra~rh)
+     00h     009ch     009ch    0001h      DATA     5         @data_ra14 (isr:ra~rh)
+     00h     00f2h     00f5h    0004h      DATA     1         @HCCINIT0 (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\G-777G.OBJ)
+     00h     00f6h     00f6h    0001h      DATA     9         @HCCINIT (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     00f7h     00f7h    0001h      DATA     961       @data_ra (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00f8h     00f8h    0001h      DATA     691       @data_rb (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00f9h     00f9h    0001h      DATA     461       @data_rc (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00fah     00fah    0001h      DATA     663       @data_rd (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00fbh     00fbh    0001h      DATA     620       @data_re (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00fch     00fch    0001h      DATA     464       @data_rf (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00fdh     00fdh    0001h      DATA     459       @data_rg (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00feh     00feh    0001h      DATA     28        @data_rh (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00ffh     00ffh    0001h      DATA     2         @data_r120 (isr:ra~rh)
+
+     Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     00e4h     00e4h    0000h      LOCAL    0         @dummy (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\G-777G.OBJ)
+     00h     00dch     00e3h    0008h      LOCAL    15        _main (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\G-777G.OBJ)
+     00h     009fh     009fh    0000h      LOCAL    0         _PORT_init (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\G-777G.OBJ)
+     00h     009fh     009fh    0001h      LOCAL    12        _run_time (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ)
+     00h     009fh     009fh    0000h      LOCAL    0         _check_sys_Year (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ)
+     00h     009fh     009fh    0000h      LOCAL    0         _builtin_holtek_uitof (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     009fh     009fh    0000h      LOCAL    0         _builtin_holtek_ftdiv (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     009fh     009fh    0000h      LOCAL    0         _builtin_holtek_ftdecode (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     009fh     009fh    0000h      LOCAL    0         _builtin_holtek_ftol (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     009fh     009fh    0000h      LOCAL    0         _builtin_holtek_ultof (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     009fh     009fh    0000h      LOCAL    0         _builtin_holtek_ftsubadd (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     009fh     009fh    0000h      LOCAL    0         _builtin_holtek_ftmul (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     009fh     009fh    0000h      LOCAL    0         _Crom2Prom (CROM2PROM)
+     00h     009fh     009fh    0000h      LOCAL    0         _Sys_RESET (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\G-777G.OBJ)
+     00h     009fh     00a4h    0006h      LOCAL    52.167    _memset (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     00h     009fh     009fh    0000h      LOCAL    0         _Show_VER (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     009fh     009fh    0000h      LOCAL    0         _init_timer_base0 (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\G-777G.OBJ)
+     00h     00a0h     00a4h    0005h      LOCAL    29.4      _me_delay_ms (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\DELAY.OBJ)
+     00h     009fh     009fh    0001h      LOCAL    3         _me_delay_100us (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\DELAY.OBJ)
+     00h     009fh     009fh    0001h      LOCAL    2         _fun_enable_fwen (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\IAP.OBJ)
+     00h     009fh     00a0h    0002h      LOCAL    17        _fun_erase_page (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\IAP.OBJ)
+     00h     009fh     00a2h    0004h      LOCAL    9         _fun_write_cpage (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\IAP.OBJ)
+     00h     00a5h     00a8h    0004h      LOCAL    15        _fun_read_page (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\IAP.OBJ)
+     00h     00a1h     00a4h    0004h      LOCAL    5         _fun_read_page_data (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\IAP.OBJ)
+     00h     009fh     00a0h    0002h      LOCAL    2         _fun_read_word (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\IAP.OBJ)
+     00h     009fh     00a0h    0002h      LOCAL    2         _show_display (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     00a0h     00a1h    0002h      LOCAL    8         _uart_init (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     00a5h     00a5h    0000h      LOCAL    0         _Show_PC (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     00a0h     00a0h    0001h      LOCAL    3         _Buzzer (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ)
+     00h     00bfh     00bfh    0001h      LOCAL    14        _reivce_data (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ)
+     00h     00a2h     00a7h    0006h      LOCAL    2.3333    _Uart_Receice_9600 (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     00a0h     00a1h    0002h      LOCAL    3         _Receice_one_byte (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     009fh     009fh    0001h      LOCAL    3         _Uart_delay (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     00a2h     00a5h    0004h      LOCAL    10.75     _Uart_Send_9600 (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     00a0h     00a1h    0002h      LOCAL    2.5       _Send_data_9600 (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     009fh     00a4h    0006h      LOCAL    6.1667    _builtin_holtek_mulhi3_isr00 (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     009fh     009fh    0000h      LOCAL    0         _AD_set (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\AD.OBJ)
+     00h     009fh     00a6h    0008h      LOCAL    2.5       _test_OP (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\AD.OBJ)
+     00h     00b5h     00beh    000ah      LOCAL    9.1       _get_lowPwd (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\AD.OBJ)
+     00h     009fh     00ach    000eh      LOCAL    47.429    _builtin_holtek_divmodsi4_isr00 (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     009fh     00aah    000ch      LOCAL    28.083    _builtin_holtek_mulsi3_isr00 (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00adh     00b4h    0008h      LOCAL    24.5      _Calculate_contrul (F:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\45F5601.lib)
+     00h     00adh     00b4h    0008h      LOCAL    25.5      _Calculate_blood (F:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\45F5601.lib)
+     00h     009fh     00a6h    0008h      LOCAL    42.875    _builtin_holtek_divmodhi4_isr00 (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     009fh     009fh    0001h      LOCAL    2         _Get_Charge (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ)
+     00h     00a5h     00a7h    0003h      LOCAL    4.3333    _key_scan (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\G-777G.OBJ)
+     00h     00c3h     00c6h    0004h      LOCAL    6         _Power_ON_OFF (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ)
+     00h     009fh     009fh    0000h      LOCAL    0         _OP_set (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\AD.OBJ)
+     00h     00bfh     00bfh    0000h      LOCAL    0         _Get_Battery (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ)
+     00h     009fh     009fh    0000h      LOCAL    0         _uart_close (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     00a1h     00a1h    0000h      LOCAL    0         _displey_EB (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     009fh     009fh    0000h      LOCAL    0         _show_battery (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     00a5h     00a5h    0000h      LOCAL    0         _Show_OFF (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     00bfh     00c2h    0004h      LOCAL    2         _Get_Temperature (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ)
+     00h     00a7h     00ach    0006h      LOCAL    24.5      _Show_Big_number (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     009fh     00a3h    0005h      LOCAL    39        _builtin_holtek_divmodqi4_isr00 (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00a1h     00a1h    0000h      LOCAL    0         _Show_EE (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     00a1h     00a1h    0000h      LOCAL    0         _Show_Et (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     00adh     00adh    0000h      LOCAL    0         _entry_Blood_drop (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\G-777G.OBJ)
+     00h     00adh     00adh    0000h      LOCAL    0         _show_sequence (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\G-777G.OBJ)
+     00h     00a5h     00a5h    0000h      LOCAL    0         _Show_OPEN (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     00a1h     00a1h    0000h      LOCAL    0         _displey_YES (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     00a1h     00a1h    0000h      LOCAL    0         _displey_test (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     00a1h     00a1h    0000h      LOCAL    0         _displey_DEL (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     00a9h     00b0h    0008h      LOCAL    3.625     _Get_Memroy (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ)
+     00h     00a1h     00a1h    0000h      LOCAL    0         _Show_END (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     00a1h     00a1h    0000h      LOCAL    0         _Show_000 (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     00a5h     00afh    000bh      LOCAL    15.727    _strstr (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     00h     009fh     00a0h    0002h      LOCAL    5         _strlen (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     00h     009fh     00a4h    0006h      LOCAL    3         _strncmp (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     00h     00a4h     00a4h    0001h      LOCAL    8         _Update_time (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     00a5h     00a6h    0002h      LOCAL    43        _wait_return (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     009fh     009fh    0001h      LOCAL    5         _nbIotSignal (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     00adh     00b0h    0004h      LOCAL    4         _transformation (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     00a5h     00a5h    0000h      LOCAL    0         _GSM_turn_ON (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ)
+     00h     00a1h     00a1h    0000h      LOCAL    0         _Show_EF (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     00a9h     00b7h    000fh      LOCAL    4.6       _Put_Memroy (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ)
+     00h     00beh     00c1h    0004h      LOCAL    6         _Send_GSM2 (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     009fh     009fh    0001h      LOCAL    0         _Send_phase (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     00b6h     00bdh    0008h      LOCAL    7         _GSM_task (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     00a5h     00a5h    0000h      LOCAL    0         _clnUartBuf (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     00a4h     00a5h    0002h      LOCAL    57        _uart_tx_string (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     00a0h     00a3h    0004h      LOCAL    2.5       _Uart_Send (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     009fh     009fh    0001h      LOCAL    2         _Send_data (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     009fh     009fh    0000h      LOCAL    0         _stopGSMTask (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     00afh     00b5h    0007h      LOCAL    2.7143    _Check_NetReg (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     009fh     00a2h    0004h      LOCAL    10.25     _strchr (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     00h     00abh     00aeh    0004h      LOCAL    8.75      _atoi (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     00h     00a0h     00a6h    0007h      LOCAL    3.2857    _getRssi (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     00b0h     00b3h    0004h      LOCAL    9         _getModuleTime (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     00a5h     00a7h    0003h      LOCAL    2.3333    _getIMEI (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     009fh     00a4h    0006h      LOCAL    5         _memcpy (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     00h     009fh     00a0h    0002h      LOCAL    6.5       _hexToAscii (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     00a7h     00aeh    0008h      LOCAL    4.5       _getBloodSuger (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     00b0h     00b2h    0003h      LOCAL    3         _getServerCallback (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     00a9h     00beh    0016h      LOCAL    0.1818    _Store_Failure_buff (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ)
+     00h     00c2h     00dbh    001ah      LOCAL    0.6923    _Send_Failure_buff (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ)
+     00h     009fh     009fh    0001h      LOCAL    1         _Gsm_power_off (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ)
+     00h     00a1h     00a1h    0000h      LOCAL    0         _displey_EU (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     009fh     009fh    0000h      LOCAL    0         _exit (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\G-777G.OBJ)
+     00h     009fh     009fh    0000h      LOCAL    0         _SysSleep (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ)
+     00h     009fh     009fh    0000h      LOCAL    0         @dummy32 (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     009eh     009eh    0001h      LOCAL    12        _isr_timer_base0 (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     00a5h     00a5h    0000h      LOCAL    0         _Show_CLOSE (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     00a5h     00a5h    0000h      LOCAL    0         _Show_usb (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\LCD.OBJ)
+     00h     00a7h     00a7h    0001h      LOCAL    2         _Gsm_power_reset (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\RUNTASK.OBJ)
+     00h     009fh     00a3h    0005h      LOCAL    1.2       _calculate_crc8 (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     009eh     009eh    0000h      LOCAL    0         @dummy20 (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     009dh     009dh    0001h      LOCAL    4         _ISR_UART (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     00a5h     00a6h    0002h      LOCAL    2         _wait_100MS (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+     00h     00a1h     00a2h    0002h      LOCAL    1         _get_len_string (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\UART.OBJ)
+
+     Indepentent Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     009fh     009fh    0000h      ILOCAL   0         _AD_Delay (f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\AD.OBJ)
+     00h     009fh     009fh    0000h      ILOCAL   0         _builtin_holtek_ftnorm (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     009fh     009fh    0000h      ILOCAL   0         _builtin_holtek_ftinf (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+
+     Public Symbols Information
+     Address            Public by Name
+     0012h              _AD_Delay
+     0286h              _AD_set
+     0803h              _Buzzer
+     5604h              _Calculate_blood
+     5a37h              _Calculate_contrul
+     3ef7h              _Check_NetReg
+     2dd5h              _Crom2Prom
+     2dd4h              _Crom2PromNext
+     6000h              _GSM_task
+     1db4h              _GSM_turn_ON
+     1ceah              _Get_Battery
+     32e0h              _Get_Charge
+     1e64h              _Get_Memroy
+     13feh              _Get_Temperature
+     3a86h              _Get_time
+     093bh              _Gsm_power_off
+     34f8h              _Gsm_power_reset
+     012eh              _ISR_UART
+     0281h              _OP_set
+     082ch              _PORT_init
+     2dfah              _Power_ON_OFF
+     2000h              _Put_Memroy
+     00b1h              _Put_Memroy_2
+     24cbh              _Receice_one_byte
+     23c6h              _Send_Failure_buff
+     232ah              _Send_GSM2
+     37a5h              _Send_data
+     2234h              _Send_data_9600
+     3f86h              _Send_phase
+     1961h              _Show_000
+     0940h              _Show_Big_number
+     00a9h              _Show_Big_number_2
+     346bh              _Show_CLOSE
+     18f4h              _Show_EE
+     191bh              _Show_EF
+     19bah              _Show_END
+     13dbh              _Show_Et
+     18c2h              _Show_OFF
+     1984h              _Show_OPEN
+     19ddh              _Show_PC
+     2d9ah              _Show_VER
+     349fh              _Show_usb
+     36dah              _SoundGroups
+     2252h              _Store_Failure_buff
+     1fd4h              _SysSleep
+     081eh              _Sys_RESET
+     193eh              _Uart_Receice_9600
+     37adh              _Uart_Send
+     230eh              _Uart_Send_9600
+     222eh              _Uart_delay
+     1b2ah              _Update_time
+     5567h              _atoi
+     3a28h              _b_O_AfterMeal
+     3a36h              _bloodSugarVal
+     54c1h              _builtin_holtek_divmodhi4_isr00
+     0083h              _builtin_holtek_exp1
+     008ch              _builtin_holtek_exp2
+     0085h              _builtin_holtek_floatflag
+     0220h              _builtin_holtek_ftadd
+     0180h              _builtin_holtek_ftdecode1
+     0176h              _builtin_holtek_ftdecode2
+     018ch              _builtin_holtek_ftdiv
+     0018h              _builtin_holtek_ftinf
+     01beh              _builtin_holtek_ftmul
+     0252h              _builtin_holtek_ftnorm
+     01f3h              _builtin_holtek_ftol
+     021eh              _builtin_holtek_ftsub
+     0188h              _builtin_holtek_ftzero
+     018ah              _builtin_holtek_ftzero1
+     0080h              _builtin_holtek_mant1
+     0086h              _builtin_holtek_mant12p
+     0089h              _builtin_holtek_mant2
+     54f8h              _builtin_holtek_mulhi3_isr00
+     1ccbh              _builtin_holtek_mulsi3_isr00
+     008dh              _builtin_holtek_prod
+     0084h              _builtin_holtek_signs
+     54cah              _builtin_holtek_udivmodhi4_isr00
+     550bh              _builtin_holtek_udivmodqi4_isr00
+     5524h              _builtin_holtek_udivmodsi4_isr00
+     000eh              _builtin_holtek_uitof
+     0002h              _builtin_holtek_ultof
+     338bh              _calculate_crc8
+     3a43h              _checkData
+     3a4dh              _checkTime
+     3517h              _check_sys_Year
+     3ebch              _clnUartBuf
+     39e3h              _crc8_table
+     3a27h              _dakuohao
+     36d3h              _data_time1
+     36cdh              _data_time2
+     1836h              _displey_DEL
+     1875h              _displey_EB
+     189fh              _displey_EU
+     17e2h              _displey_YES
+     180eh              _displey_test
+     137dh              _entry_Blood_drop
+     1480h              _exit
+     33d8h              _fun_enable_fwen
+     33bbh              _fun_erase_page
+     16d7h              _fun_read_page
+     00a8h              _fun_read_page_2
+     3437h              _fun_read_page_data
+     3405h              _fun_read_word
+     1776h              _fun_write_cpage
+     3c8eh              _getBloodSuger
+     3e7eh              _getIMEI
+     3a8ch              _getModuleTime
+     3df7h              _getRssi
+     3dbah              _getServerCallback
+     2249h              _get_len_string
+     038ch              _get_lowPwd
+     00b5h              _get_lowPwd_2
+     3ed8h              _hexToAscii
+     3a23h              _huanhang
+     3a25h              _huanhangkong
+     00f2h              _iSec
+     3a5ah              _imei
+     0825h              _init_timer_base0
+     0047h              _isr_timer_base0
+     0855h              _key_scan
+     4000h              _main
+     0813h              _me_delay_100us
+     0376h              _me_delay_ms
+     5492h              _memcpy
+     3783h              _memset
+     3746h              _nbIotSignal
+     34ech              _number_tabL
+     34dch              _number_tabL2
+     34e1h              _number_tabM
+     34f2h              _number_tabR
+     34e7h              _number_tabR2
+     24dfh              _reivce_data
+     31a2h              _run_time
+     332eh              _show_battery
+     089ch              _show_display
+     14f5h              _show_sequence
+     34d2h              _small_number_tab
+     3a56h              _sn
+     3f6ah              _stopGSMTask
+     55eah              _strchr
+     328dh              _strlen
+     53f8h              _strncmp
+     543dh              _strstr
+     028bh              _test_OP
+     1a06h              _transformation
+     1fc7h              _uart_close
+     1d92h              _uart_init
+     32b9h              _uart_tx_string
+     3a60h              _urlHead
+     3375h              _wait_100MS
+     32c6h              _wait_return
+     0097h              r114
+     00ffh              r120
+     0098h              r214
+     0090h              r220
+     0099h              r314
+     0091h              r320
+     009ah              r414
+     0092h              r420
+     009bh              r514
+     0093h              r520
+     00f7h              ra
+     009ch              ra14
+     0094h              ra20
+     00f8h              rb
+     0095h              rb20
+     00f9h              rc
+     0096h              rc20
+     00fah              rd
+     00fbh              re
+     00fch              rf
+     00fdh              rg
+     00feh              rh
+     0819h              startup_value_1
+
+     Address            Public by Value
+     0002h              _builtin_holtek_ultof
+     000eh              _builtin_holtek_uitof
+     0012h              _AD_Delay
+     0018h              _builtin_holtek_ftinf
+     0047h              _isr_timer_base0
+     0080h              _builtin_holtek_mant1
+     0083h              _builtin_holtek_exp1
+     0084h              _builtin_holtek_signs
+     0085h              _builtin_holtek_floatflag
+     0086h              _builtin_holtek_mant12p
+     0089h              _builtin_holtek_mant2
+     008ch              _builtin_holtek_exp2
+     008dh              _builtin_holtek_prod
+     0090h              r220
+     0091h              r320
+     0092h              r420
+     0093h              r520
+     0094h              ra20
+     0095h              rb20
+     0096h              rc20
+     0097h              r114
+     0098h              r214
+     0099h              r314
+     009ah              r414
+     009bh              r514
+     009ch              ra14
+     00a8h              _fun_read_page_2
+     00a9h              _Show_Big_number_2
+     00b1h              _Put_Memroy_2
+     00b5h              _get_lowPwd_2
+     00f2h              _iSec
+     00f7h              ra
+     00f8h              rb
+     00f9h              rc
+     00fah              rd
+     00fbh              re
+     00fch              rf
+     00fdh              rg
+     00feh              rh
+     00ffh              r120
+     012eh              _ISR_UART
+     0176h              _builtin_holtek_ftdecode2
+     0180h              _builtin_holtek_ftdecode1
+     0188h              _builtin_holtek_ftzero
+     018ah              _builtin_holtek_ftzero1
+     018ch              _builtin_holtek_ftdiv
+     01beh              _builtin_holtek_ftmul
+     01f3h              _builtin_holtek_ftol
+     021eh              _builtin_holtek_ftsub
+     0220h              _builtin_holtek_ftadd
+     0252h              _builtin_holtek_ftnorm
+     0281h              _OP_set
+     0286h              _AD_set
+     028bh              _test_OP
+     0376h              _me_delay_ms
+     038ch              _get_lowPwd
+     0803h              _Buzzer
+     0813h              _me_delay_100us
+     0819h              startup_value_1
+     081eh              _Sys_RESET
+     0825h              _init_timer_base0
+     082ch              _PORT_init
+     0855h              _key_scan
+     089ch              _show_display
+     093bh              _Gsm_power_off
+     0940h              _Show_Big_number
+     137dh              _entry_Blood_drop
+     13dbh              _Show_Et
+     13feh              _Get_Temperature
+     1480h              _exit
+     14f5h              _show_sequence
+     16d7h              _fun_read_page
+     1776h              _fun_write_cpage
+     17e2h              _displey_YES
+     180eh              _displey_test
+     1836h              _displey_DEL
+     1875h              _displey_EB
+     189fh              _displey_EU
+     18c2h              _Show_OFF
+     18f4h              _Show_EE
+     191bh              _Show_EF
+     193eh              _Uart_Receice_9600
+     1961h              _Show_000
+     1984h              _Show_OPEN
+     19bah              _Show_END
+     19ddh              _Show_PC
+     1a06h              _transformation
+     1b2ah              _Update_time
+     1ccbh              _builtin_holtek_mulsi3_isr00
+     1ceah              _Get_Battery
+     1d92h              _uart_init
+     1db4h              _GSM_turn_ON
+     1e64h              _Get_Memroy
+     1fc7h              _uart_close
+     1fd4h              _SysSleep
+     2000h              _Put_Memroy
+     222eh              _Uart_delay
+     2234h              _Send_data_9600
+     2249h              _get_len_string
+     2252h              _Store_Failure_buff
+     230eh              _Uart_Send_9600
+     232ah              _Send_GSM2
+     23c6h              _Send_Failure_buff
+     24cbh              _Receice_one_byte
+     24dfh              _reivce_data
+     2d9ah              _Show_VER
+     2dd4h              _Crom2PromNext
+     2dd5h              _Crom2Prom
+     2dfah              _Power_ON_OFF
+     31a2h              _run_time
+     328dh              _strlen
+     32b9h              _uart_tx_string
+     32c6h              _wait_return
+     32e0h              _Get_Charge
+     332eh              _show_battery
+     3375h              _wait_100MS
+     338bh              _calculate_crc8
+     33bbh              _fun_erase_page
+     33d8h              _fun_enable_fwen
+     3405h              _fun_read_word
+     3437h              _fun_read_page_data
+     346bh              _Show_CLOSE
+     349fh              _Show_usb
+     34d2h              _small_number_tab
+     34dch              _number_tabL2
+     34e1h              _number_tabM
+     34e7h              _number_tabR2
+     34ech              _number_tabL
+     34f2h              _number_tabR
+     34f8h              _Gsm_power_reset
+     3517h              _check_sys_Year
+     36cdh              _data_time2
+     36d3h              _data_time1
+     36dah              _SoundGroups
+     3746h              _nbIotSignal
+     3783h              _memset
+     37a5h              _Send_data
+     37adh              _Uart_Send
+     39e3h              _crc8_table
+     3a23h              _huanhang
+     3a25h              _huanhangkong
+     3a27h              _dakuohao
+     3a28h              _b_O_AfterMeal
+     3a36h              _bloodSugarVal
+     3a43h              _checkData
+     3a4dh              _checkTime
+     3a56h              _sn
+     3a5ah              _imei
+     3a60h              _urlHead
+     3a86h              _Get_time
+     3a8ch              _getModuleTime
+     3c8eh              _getBloodSuger
+     3dbah              _getServerCallback
+     3df7h              _getRssi
+     3e7eh              _getIMEI
+     3ebch              _clnUartBuf
+     3ed8h              _hexToAscii
+     3ef7h              _Check_NetReg
+     3f6ah              _stopGSMTask
+     3f86h              _Send_phase
+     4000h              _main
+     53f8h              _strncmp
+     543dh              _strstr
+     5492h              _memcpy
+     54c1h              _builtin_holtek_divmodhi4_isr00
+     54cah              _builtin_holtek_udivmodhi4_isr00
+     54f8h              _builtin_holtek_mulhi3_isr00
+     550bh              _builtin_holtek_udivmodqi4_isr00
+     5524h              _builtin_holtek_udivmodsi4_isr00
+     5567h              _atoi
+     55eah              _strchr
+     5604h              _Calculate_blood
+     5a37h              _Calculate_contrul
+     6000h              _GSM_task
+
+
+ROM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       2000h     1ecfh    96%
+     01h       2000h     1eeah    96%
+     02h       2000h     1e65h    94%
+     03h       2000h     1092h    51%
+     Total     8000h     6cb0h    84%
+
+RAM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       0080h     0074h    90%
+     02h       0080h     0080h    100%
+     03h       0080h     0068h    81%
+     04h       0080h     002eh    35%
+     Total     0200h     018ah    76%
+
+Use Stack Count
+_main: 7
+_isr_timer_base0: 0
+_Show_CLOSE: 2
+_Show_usb: 2
+_Gsm_power_reset: 3
+_calculate_crc8: 1
+_ISR_UART: 0
+_wait_100MS: 2
+_get_len_string: 2
+
+Call Tree
+    @dummy
+        _main (0)
+            _PORT_init (1)
+            _run_time (1)
+                _check_sys_Year (2)
+                    _builtin_holtek_uitof (3)
+                    _builtin_holtek_ftdiv (3)
+                        _builtin_holtek_ftdecode (4)
+                    _builtin_holtek_ftol (3)
+                        _builtin_holtek_ftdecode (4)
+                    _builtin_holtek_ultof (3)
+                    _builtin_holtek_ftsubadd (3)
+                        _builtin_holtek_ftdecode (4)
+                    _builtin_holtek_ftmul (3)
+                        _builtin_holtek_ftdecode (4)
+                _Crom2Prom (2)
+            _Sys_RESET (1)
+            _memset (1)
+            _Show_VER (1)
+            _init_timer_base0 (1)
+            _me_delay_ms (1)
+                _me_delay_100us (2)
+            _fun_enable_fwen (1)
+            _me_delay_100us (1)
+            _fun_erase_page (1)
+            _fun_write_cpage (1)
+                _Crom2Prom (2)
+            _fun_read_page (1)
+                _fun_read_page_data (2)
+                    _fun_read_word (3)
+                _Crom2Prom (2)
+            _show_display (1)
+                _Crom2Prom (2)
+            _uart_init (1)
+                _me_delay_100us (2)
+            _Show_PC (1)
+                _memset (2)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _Buzzer (1)
+                _me_delay_100us (2)
+            _reivce_data (1)
+                _Uart_Receice_9600 (2)
+                    _Receice_one_byte (3)
+                        _Uart_delay (4)
+                _Uart_Send_9600 (2)
+                    _Crom2Prom (3)
+                    _Send_data_9600 (3)
+                        _Uart_delay (4)
+                _me_delay_ms (2)
+                    _me_delay_100us (3)
+                _builtin_holtek_mulhi3_isr00 (2)
+                _memset (2)
+                _AD_set (2)
+                _test_OP (2)
+                _get_lowPwd (2)
+                    _AD_set (3)
+                    _me_delay_ms (3)
+                        _me_delay_100us (4)
+                    _builtin_holtek_divmodsi4_isr00 (3)
+                    _builtin_holtek_mulsi3_isr00 (3)
+                    _Calculate_contrul (3)
+                        _builtin_holtek_mulsi3_isr00 (4)
+                        _builtin_holtek_divmodsi4_isr00 (4)
+                    _Calculate_blood (3)
+                        _builtin_holtek_mulsi3_isr00 (4)
+                        _builtin_holtek_divmodsi4_isr00 (4)
+                _builtin_holtek_ultof (2)
+                _builtin_holtek_ftdiv (2)
+                    _builtin_holtek_ftdecode (3)
+                _builtin_holtek_ftmul (2)
+                    _builtin_holtek_ftdecode (3)
+                _builtin_holtek_ftol (2)
+                    _builtin_holtek_ftdecode (3)
+                _builtin_holtek_divmodhi4_isr00 (2)
+                _uart_init (2)
+                    _me_delay_100us (3)
+                _Crom2Prom (2)
+                _fun_enable_fwen (2)
+                _me_delay_100us (2)
+                _fun_erase_page (2)
+                _fun_write_cpage (2)
+                    _Crom2Prom (3)
+            _Get_Charge (1)
+            _key_scan (1)
+                _me_delay_ms (2)
+                    _me_delay_100us (3)
+            _Power_ON_OFF (1)
+                _uart_init (2)
+                    _me_delay_100us (3)
+                _OP_set (2)
+                _memset (2)
+                _show_display (2)
+                    _Crom2Prom (3)
+                _fun_read_page (2)
+                    _fun_read_page_data (3)
+                        _fun_read_word (4)
+                    _Crom2Prom (3)
+                _me_delay_ms (2)
+                    _me_delay_100us (3)
+                _Get_Battery (2)
+                    _get_lowPwd (3)
+                        _AD_set (4)
+                        _me_delay_ms (4)
+                            _me_delay_100us (5)
+                        _builtin_holtek_divmodsi4_isr00 (4)
+                        _builtin_holtek_mulsi3_isr00 (4)
+                        _Calculate_contrul (4)
+                            _builtin_holtek_mulsi3_isr00 (5)
+                            _builtin_holtek_divmodsi4_isr00 (5)
+                        _Calculate_blood (4)
+                            _builtin_holtek_mulsi3_isr00 (5)
+                            _builtin_holtek_divmodsi4_isr00 (5)
+                _uart_close (2)
+                _displey_EB (2)
+                    _show_battery (3)
+                    _show_display (3)
+                        _Crom2Prom (4)
+                _Show_OFF (2)
+                    _memset (3)
+                    _show_battery (3)
+                    _show_display (3)
+                        _Crom2Prom (4)
+                _Get_Temperature (2)
+                    _get_lowPwd (3)
+                        _AD_set (4)
+                        _me_delay_ms (4)
+                            _me_delay_100us (5)
+                        _builtin_holtek_divmodsi4_isr00 (4)
+                        _builtin_holtek_mulsi3_isr00 (4)
+                        _Calculate_contrul (4)
+                            _builtin_holtek_mulsi3_isr00 (5)
+                            _builtin_holtek_divmodsi4_isr00 (5)
+                        _Calculate_blood (4)
+                            _builtin_holtek_mulsi3_isr00 (5)
+                            _builtin_holtek_divmodsi4_isr00 (5)
+                    _Crom2Prom (3)
+                    _Crom2Prom (3)
+            _Show_Big_number (1)
+                _Crom2Prom (2)
+                _builtin_holtek_divmodqi4_isr00 (2)
+                _Crom2Prom (2)
+                _builtin_holtek_divmodhi4_isr00 (2)
+                _builtin_holtek_mulhi3_isr00 (2)
+                _show_battery (2)
+            _show_battery (1)
+            _OP_set (1)
+            _Get_Battery (1)
+                _get_lowPwd (2)
+                    _AD_set (3)
+                    _me_delay_ms (3)
+                        _me_delay_100us (4)
+                    _builtin_holtek_divmodsi4_isr00 (3)
+                    _builtin_holtek_mulsi3_isr00 (3)
+                    _Calculate_contrul (3)
+                        _builtin_holtek_mulsi3_isr00 (4)
+                        _builtin_holtek_divmodsi4_isr00 (4)
+                    _Calculate_blood (3)
+                        _builtin_holtek_mulsi3_isr00 (4)
+                        _builtin_holtek_divmodsi4_isr00 (4)
+            _Show_EE (1)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _get_lowPwd (1)
+                _AD_set (2)
+                _me_delay_ms (2)
+                    _me_delay_100us (3)
+                _builtin_holtek_divmodsi4_isr00 (2)
+                _builtin_holtek_mulsi3_isr00 (2)
+                _Calculate_contrul (2)
+                    _builtin_holtek_mulsi3_isr00 (3)
+                    _builtin_holtek_divmodsi4_isr00 (3)
+                _Calculate_blood (2)
+                    _builtin_holtek_mulsi3_isr00 (3)
+                    _builtin_holtek_divmodsi4_isr00 (3)
+            _displey_EB (1)
+                _show_battery (2)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _Show_OFF (1)
+                _memset (2)
+                _show_battery (2)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _Get_Temperature (1)
+                _get_lowPwd (2)
+                    _AD_set (3)
+                    _me_delay_ms (3)
+                        _me_delay_100us (4)
+                    _builtin_holtek_divmodsi4_isr00 (3)
+                    _builtin_holtek_mulsi3_isr00 (3)
+                    _Calculate_contrul (3)
+                        _builtin_holtek_mulsi3_isr00 (4)
+                        _builtin_holtek_divmodsi4_isr00 (4)
+                    _Calculate_blood (3)
+                        _builtin_holtek_mulsi3_isr00 (4)
+                        _builtin_holtek_divmodsi4_isr00 (4)
+                _Crom2Prom (2)
+                _Crom2Prom (2)
+            _Show_Et (1)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _entry_Blood_drop (1)
+                _memset (2)
+                _show_display (2)
+                    _Crom2Prom (3)
+                _AD_set (2)
+                _me_delay_ms (2)
+                    _me_delay_100us (3)
+                _Show_Big_number (2)
+                    _Crom2Prom (3)
+                    _builtin_holtek_divmodqi4_isr00 (3)
+                    _Crom2Prom (3)
+                    _builtin_holtek_divmodhi4_isr00 (3)
+                    _builtin_holtek_mulhi3_isr00 (3)
+                    _show_battery (3)
+            _show_sequence (1)
+                _builtin_holtek_divmodsi4_isr00 (2)
+                _Show_Big_number (2)
+                    _Crom2Prom (3)
+                    _builtin_holtek_divmodqi4_isr00 (3)
+                    _Crom2Prom (3)
+                    _builtin_holtek_divmodhi4_isr00 (3)
+                    _builtin_holtek_mulhi3_isr00 (3)
+                    _show_battery (3)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _Show_OPEN (1)
+                _memset (2)
+                _show_battery (2)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _displey_YES (1)
+                _show_battery (2)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _displey_test (1)
+                _show_battery (2)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _displey_DEL (1)
+                _show_battery (2)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _Get_Memroy (1)
+                _builtin_holtek_divmodhi4_isr00 (2)
+                _memset (2)
+                _fun_read_page (2)
+                    _fun_read_page_data (3)
+                        _fun_read_word (4)
+                    _Crom2Prom (3)
+                _Crom2Prom (2)
+            _Show_END (1)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _Show_000 (1)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _strstr (1)
+                _Crom2Prom (2)
+                _strlen (2)
+                    _Crom2Prom (3)
+                _strncmp (2)
+                    _Crom2Prom (3)
+            _Update_time (1)
+                _builtin_holtek_divmodqi4_isr00 (2)
+                _Crom2Prom (2)
+                _Crom2Prom (2)
+            _wait_return (1)
+                _nbIotSignal (2)
+                _show_display (2)
+                    _Crom2Prom (3)
+                _me_delay_ms (2)
+                    _me_delay_100us (3)
+            _transformation (1)
+                _builtin_holtek_mulsi3_isr00 (2)
+                _builtin_holtek_divmodsi4_isr00 (2)
+            _GSM_turn_ON (1)
+                _me_delay_ms (2)
+                    _me_delay_100us (3)
+                _uart_init (2)
+                    _me_delay_100us (3)
+            _Show_EF (1)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _Put_Memroy (1)
+                _builtin_holtek_divmodhi4_isr00 (2)
+                _fun_read_page (2)
+                    _fun_read_page_data (3)
+                        _fun_read_word (4)
+                    _Crom2Prom (3)
+                _me_delay_ms (2)
+                    _me_delay_100us (3)
+                _Crom2Prom (2)
+                _fun_enable_fwen (2)
+                _me_delay_100us (2)
+                _fun_erase_page (2)
+                _fun_write_cpage (2)
+                    _Crom2Prom (3)
+            _Send_GSM2 (1)
+                _Send_phase (2)
+                _GSM_task (2)
+                    _clnUartBuf (3)
+                        _memset (4)
+                    _uart_tx_string (3)
+                        _strlen (4)
+                            _Crom2Prom (5)
+                        _Uart_Send (4)
+                            _Crom2Prom (5)
+                            _Send_data (5)
+                    _wait_return (3)
+                        _nbIotSignal (4)
+                        _show_display (4)
+                            _Crom2Prom (5)
+                        _me_delay_ms (4)
+                            _me_delay_100us (5)
+                    _strstr (3)
+                        _Crom2Prom (4)
+                        _strlen (4)
+                            _Crom2Prom (5)
+                        _strncmp (4)
+                            _Crom2Prom (5)
+                    _stopGSMTask (3)
+                    _Check_NetReg (3)
+                        _strchr (4)
+                            _Crom2Prom (5)
+                        _atoi (4)
+                            _Crom2Prom (5)
+                            _builtin_holtek_mulsi3_isr00 (5)
+                        _Crom2Prom (4)
+                    _getRssi (3)
+                        _Crom2Prom (4)
+                        _nbIotSignal (4)
+                    _getModuleTime (3)
+                        _strstr (4)
+                            _Crom2Prom (5)
+                            _strlen (5)
+                                _Crom2Prom (6)
+                            _strncmp (5)
+                                _Crom2Prom (6)
+                        _strchr (4)
+                            _Crom2Prom (5)
+                        _atoi (4)
+                            _Crom2Prom (5)
+                            _builtin_holtek_mulsi3_isr00 (5)
+                        _builtin_holtek_divmodhi4_isr00 (4)
+                        _Crom2Prom (4)
+                        _Update_time (4)
+                            _builtin_holtek_divmodqi4_isr00 (5)
+                            _Crom2Prom (5)
+                            _Crom2Prom (5)
+                    _getIMEI (3)
+                        _memset (4)
+                        _memcpy (4)
+                            _Crom2Prom (5)
+                    _memset (3)
+                    _hexToAscii (3)
+                    _builtin_holtek_divmodsi4_isr00 (3)
+                    _builtin_holtek_divmodhi4_isr00 (3)
+                    _builtin_holtek_divmodqi4_isr00 (3)
+                    _Get_Memroy (3)
+                        _builtin_holtek_divmodhi4_isr00 (4)
+                        _memset (4)
+                        _fun_read_page (4)
+                            _fun_read_page_data (5)
+                                _fun_read_word (6)
+                            _Crom2Prom (5)
+                        _Crom2Prom (4)
+                    _builtin_holtek_divmodhi4_isr00 (3)
+                    _getBloodSuger (3)
+                        _builtin_holtek_mulhi3_isr00 (4)
+                        _builtin_holtek_divmodhi4_isr00 (4)
+                        _memcpy (4)
+                            _Crom2Prom (5)
+                    _memcpy (3)
+                        _Crom2Prom (4)
+                    _getServerCallback (3)
+                        _strstr (4)
+                            _Crom2Prom (5)
+                            _strlen (5)
+                                _Crom2Prom (6)
+                            _strncmp (5)
+                                _Crom2Prom (6)
+                _memset (2)
+            _Store_Failure_buff (1)
+                _memset (2)
+                _fun_read_page (2)
+                    _fun_read_page_data (3)
+                        _fun_read_word (4)
+                    _Crom2Prom (3)
+                _Crom2Prom (2)
+                _Crom2Prom (2)
+                _fun_enable_fwen (2)
+                _me_delay_100us (2)
+                _fun_erase_page (2)
+                _fun_write_cpage (2)
+                    _Crom2Prom (3)
+            _Send_Failure_buff (1)
+                _memset (2)
+                _fun_read_page (2)
+                    _fun_read_page_data (3)
+                        _fun_read_word (4)
+                    _Crom2Prom (3)
+                _Crom2Prom (2)
+                _Crom2Prom (2)
+                _Send_GSM2 (2)
+                    _Send_phase (3)
+                    _GSM_task (3)
+                        _clnUartBuf (4)
+                            _memset (5)
+                        _uart_tx_string (4)
+                            _strlen (5)
+                                _Crom2Prom (6)
+                            _Uart_Send (5)
+                                _Crom2Prom (6)
+                                _Send_data (6)
+                        _wait_return (4)
+                            _nbIotSignal (5)
+                            _show_display (5)
+                                _Crom2Prom (6)
+                            _me_delay_ms (5)
+                                _me_delay_100us (6)
+                        _strstr (4)
+                            _Crom2Prom (5)
+                            _strlen (5)
+                                _Crom2Prom (6)
+                            _strncmp (5)
+                                _Crom2Prom (6)
+                        _stopGSMTask (4)
+                        _Check_NetReg (4)
+                            _strchr (5)
+                                _Crom2Prom (6)
+                            _atoi (5)
+                                _Crom2Prom (6)
+                                _builtin_holtek_mulsi3_isr00 (6)
+                            _Crom2Prom (5)
+                        _getRssi (4)
+                            _Crom2Prom (5)
+                            _nbIotSignal (5)
+                        _getModuleTime (4)
+                            _strstr (5)
+                                _Crom2Prom (6)
+                                _strlen (6)
+                                    _Crom2Prom (7)
+                                _strncmp (6)
+                                    _Crom2Prom (7)
+                            _strchr (5)
+                                _Crom2Prom (6)
+                            _atoi (5)
+                                _Crom2Prom (6)
+                                _builtin_holtek_mulsi3_isr00 (6)
+                            _builtin_holtek_divmodhi4_isr00 (5)
+                            _Crom2Prom (5)
+                            _Update_time (5)
+                                _builtin_holtek_divmodqi4_isr00 (6)
+                                _Crom2Prom (6)
+                                _Crom2Prom (6)
+                        _getIMEI (4)
+                            _memset (5)
+                            _memcpy (5)
+                                _Crom2Prom (6)
+                        _memset (4)
+                        _hexToAscii (4)
+                        _builtin_holtek_divmodsi4_isr00 (4)
+                        _builtin_holtek_divmodhi4_isr00 (4)
+                        _builtin_holtek_divmodqi4_isr00 (4)
+                        _Get_Memroy (4)
+                            _builtin_holtek_divmodhi4_isr00 (5)
+                            _memset (5)
+                            _fun_read_page (5)
+                                _fun_read_page_data (6)
+                                    _fun_read_word (7)
+                                _Crom2Prom (6)
+                            _Crom2Prom (5)
+                        _builtin_holtek_divmodhi4_isr00 (4)
+                        _getBloodSuger (4)
+                            _builtin_holtek_mulhi3_isr00 (5)
+                            _builtin_holtek_divmodhi4_isr00 (5)
+                            _memcpy (5)
+                                _Crom2Prom (6)
+                        _memcpy (4)
+                            _Crom2Prom (5)
+                        _getServerCallback (4)
+                            _strstr (5)
+                                _Crom2Prom (6)
+                                _strlen (6)
+                                    _Crom2Prom (7)
+                                _strncmp (6)
+                                    _Crom2Prom (7)
+                    _memset (3)
+                _me_delay_ms (2)
+                    _me_delay_100us (3)
+                _fun_enable_fwen (2)
+                _me_delay_100us (2)
+                _fun_erase_page (2)
+                _fun_write_cpage (2)
+                    _Crom2Prom (3)
+            _uart_tx_string (1)
+                _strlen (2)
+                    _Crom2Prom (3)
+                _Uart_Send (2)
+                    _Crom2Prom (3)
+                    _Send_data (3)
+            _Gsm_power_off (1)
+            _displey_EU (1)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _exit (1)
+            _SysSleep (1)
+                _uart_close (2)
+    @dummy32
+        _isr_timer_base0 (0)
+    _Show_CLOSE
+        _memset (0)
+        _show_battery (0)
+        _show_display (0)
+            _Crom2Prom (1)
+    _Show_usb
+        _memset (0)
+        _show_display (0)
+            _Crom2Prom (1)
+    _Gsm_power_reset
+        _wait_return (0)
+            _nbIotSignal (1)
+            _show_display (1)
+                _Crom2Prom (2)
+            _me_delay_ms (1)
+                _me_delay_100us (2)
+        _GSM_turn_ON (0)
+            _me_delay_ms (1)
+                _me_delay_100us (2)
+            _uart_init (1)
+                _me_delay_100us (2)
+        _uart_init (0)
+            _me_delay_100us (1)
+    _calculate_crc8
+        _Crom2Prom (0)
+    @dummy20
+        _ISR_UART (0)
+    _wait_100MS
+        _show_battery (0)
+        _me_delay_ms (0)
+            _me_delay_100us (1)
+    _get_len_string
+        _strlen (0)
+            _Crom2Prom (1)
+
+HLINK : 程序的开始执行点在程序段'@code'（地址0）。定义在'f:\work\血糖仪\a_bh45f67-旧版\4g\美国客户\make_lib\v1.0.01（5000套出货)-02\g-777g-usa-bg95eseye-2022-2-20\G-777G.OBJ' 文件中
+
+错误总数 : 0  警告总数 : 0

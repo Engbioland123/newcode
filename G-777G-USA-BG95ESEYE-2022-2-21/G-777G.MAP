@@ -1,0 +1,1152 @@
+
+连接器　版本8.7.7.190806
+Input Object File: g:\project\g-777\g-777gnewcardlexinnew2\AD.OBJ
+Input Object File: g:\project\g-777\g-777gnewcardlexinnew2\DELAY.OBJ
+Input Object File: g:\project\g-777\g-777gnewcardlexinnew2\G-777G.OBJ
+Input Object File: g:\project\g-777\g-777gnewcardlexinnew2\IAP.OBJ
+Input Object File: g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ
+Input Object File: g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ
+Input Object File: g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ
+Input Object File: g:\project\g-777\g-777gnewcardlexinnew2\STARTUP1_L.OBJ
+
+Input Library File: H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB
+Input Library File: H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib
+
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0000h     0001h    0002h      CODE               @code (g:\project\g-777\g-777gnewcardlexinnew2\G-777G.OBJ)
+     00h     0002h     000dh    000ch      CODE               ltofaz (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     000eh     0011h    0004h      CODE               itofaz (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0012h     0012h    0001h      CODE               _AD_Delay (g:\project\g-777\g-777gnewcardlexinnew2\AD.OBJ)
+     00h     0014h     0017h    0004h      CODE               @ISR_UART_code (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     00h     0018h     001dh    0006h      CODE               _builtin_holtek_ftinf (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0020h     0023h    0004h      CODE               @isr_timer_base0_code (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     0024h     0046h    0023h      CODE               @start (g:\project\g-777\g-777gnewcardlexinnew2\G-777G.OBJ)
+     00h     0047h     0114h    00ceh      CODE               _isr_timer_base0 (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     0115h     015ch    0048h      CODE               _ISR_UART (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     00h     015dh     0172h    0016h      CODE               @builtin_holtek_ftdecode (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0173h     01a4h    0032h      CODE               _builtin_holtek_ftdiv (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     01a5h     01d9h    0035h      CODE               _builtin_holtek_ftmul (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     01dah     0204h    002bh      CODE               @builtin_holtek_ftol (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0205h     0238h    0034h      CODE               @builtin_holtek_ftsubadd (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0239h     0267h    002fh      CODE               _builtin_holtek_ftnorm (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0268h     026ch    0005h      CODE               _OP_set (g:\project\g-777\g-777gnewcardlexinnew2\AD.OBJ)
+     00h     026dh     0271h    0005h      CODE               _AD_set (g:\project\g-777\g-777gnewcardlexinnew2\AD.OBJ)
+     00h     0272h     035ch    00ebh      CODE               _test_OP (g:\project\g-777\g-777gnewcardlexinnew2\AD.OBJ)
+     00h     035dh     0372h    0016h      CODE               _me_delay_ms (g:\project\g-777\g-777gnewcardlexinnew2\DELAY.OBJ)
+     00h     0373h     16e9h    1377h      CODE               _get_lowPwd (g:\project\g-777\g-777gnewcardlexinnew2\AD.OBJ)
+     00h     16eah     170ch    0023h      CODE               _Show_EE (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     170dh     1741h    0035h      CODE               _key_scan (g:\project\g-777\g-777gnewcardlexinnew2\G-777G.OBJ)
+     00h     1742h     1748h    0007h      CODE               _me_delay_100us (g:\project\g-777\g-777gnewcardlexinnew2\DELAY.OBJ)
+     00h     1749h     174ch    0004h      CODE               @ROMDATA_BASE (g:\project\g-777\g-777gnewcardlexinnew2\STARTUP1_L.OBJ)
+     00h     174fh     1755h    0007h      CODE               _Sys_RESET (g:\project\g-777\g-777gnewcardlexinnew2\G-777G.OBJ)
+     00h     1756h     175ch    0007h      CODE               _init_timer_base0 (g:\project\g-777\g-777gnewcardlexinnew2\G-777G.OBJ)
+     00h     175dh     1785h    0029h      CODE               _PORT_init (g:\project\g-777\g-777gnewcardlexinnew2\G-777G.OBJ)
+     00h     1786h     17ach    0027h      CODE               _Show_PC (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     17bbh     17bfh    0005h      CODE               @crom (g:\project\g-777\g-777gnewcardlexinnew2\G-777G.OBJ)
+     00h     17c0h     185eh    009fh      CODE               _show_display (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     185fh     1863h    0005h      CODE               _Gsm_power_off (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     00h     1864h     18c3h    0060h      CODE               _entry_Blood_drop (g:\project\g-777\g-777gnewcardlexinnew2\G-777G.OBJ)
+     00h     18cdh     1941h    0075h      CODE               _exit (g:\project\g-777\g-777gnewcardlexinnew2\G-777G.OBJ)
+     00h     1942h     1b0fh    01ceh      CODE               _show_sequence (g:\project\g-777\g-777gnewcardlexinnew2\G-777G.OBJ)
+     00h     1b26h     1bb8h    0093h      CODE               _fun_read_page (g:\project\g-777\g-777gnewcardlexinnew2\IAP.OBJ)
+     00h     1bc5h     1c30h    006ch      CODE               _fun_write_cpage (g:\project\g-777\g-777gnewcardlexinnew2\IAP.OBJ)
+     00h     1c31h     1c56h    0026h      CODE               _displey_YES (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     1c5dh     1c82h    0026h      CODE               _displey_test (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     1c85h     1cc3h    003fh      CODE               _displey_DEL (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     1cc6h     1ce8h    0023h      CODE               _displey_EU (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     1ce9h     1d1ah    0032h      CODE               _Show_OFF (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     1d1bh     1d3dh    0023h      CODE               _Show_VER (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     1d42h     1d64h    0023h      CODE               _Show_Et (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     1d65h     1d87h    0023h      CODE               _Show_EF (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     1dabh     1dcdh    0023h      CODE               _Show_000 (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     1dceh     1dffh    0032h      CODE               _Show_OPEN (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     1e04h     1e26h    0023h      CODE               _Show_END (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     1e50h     1f67h    0118h      CODE               _transformation (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     1f68h     1fddh    0076h      CODE               _Get_Temperature (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     00h     1ff4h     1ffah    0007h      CODE               _SysSleep (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     01h     0000h     0ad4h    0ad5h      CODE               _Show_Big_number (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     01h     0ad9h     0c99h    01c1h      CODE               _Update_time (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     01h     0c9ah     0d43h    00aah      CODE               _Get_Battery (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     01h     0d44h     0d57h    0014h      CODE               _Buzzer (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     01h     0d58h     0d7bh    0024h      CODE               _uart_init (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     01h     0d7ch     0da4h    0029h      CODE               _GSM_turn_ON (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     01h     0da5h     0ff2h    024eh      CODE               _Put_Memroy (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     01h     0ff7h     115bh    0165h      CODE               _Get_Memroy (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     01h     115ch     122fh    00d4h      CODE               _Store_Failure_buff (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     01h     1234h     1240h    000dh      CODE               _uart_close (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     01h     1241h     125dh    001dh      CODE               _Uart_Receice_9600 (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     01h     125eh     1275h    0018h      CODE               _Uart_Send_9600 (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     01h     1276h     1b4ch    08d7h      CODE               _reivce_data (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     01h     1b51h     1f12h    03c2h      CODE               _Power_ON_OFF (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     01h     1f13h     1f37h    0025h      CODE               _wait_return (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     01h     1f38h     1f85h    004eh      CODE               _Get_Charge (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     01h     1f86h     1fcch    0047h      CODE               _show_battery (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     01h     1fcdh     1fe9h    001dh      CODE               _fun_erase_page (g:\project\g-777\g-777gnewcardlexinnew2\IAP.OBJ)
+     01h     1feah     1fefh    0006h      CODE               _Uart_delay (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     01h     1ff0h     1ff7h    0008h      CODE               _Send_data (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     02h     0000h     0e94h    0e95h      CODE               _GSM_task (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     02h     0e95h     0eb1h    001dh      CODE               _Send_phase (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     02h     0eb2h     0f2eh    007dh      CODE               _Send_GSM2 (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     02h     0f2fh     1037h    0109h      CODE               _Send_Failure_buff (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     02h     1038h     1061h    002ah      CODE               _displey_EB (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     02h     1062h     1082h    0021h      CODE               _Send_data_9600 (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     02h     1083h     109eh    001ch      CODE               _Receice_one_byte (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     02h     109fh     1254h    01b6h      CODE               _check_sys_Year (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     02h     1255h     133fh    00ebh      CODE               _run_time (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     02h     1340h     135fh    0020h      CODE               _CROM2PROM (CROM2PROM)
+     02h     1360h     137dh    001eh      CODE               _strlen (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     02h     137eh     1384h    0007h      CODE               _get_len_string (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     02h     1392h     13beh    002dh      CODE               _fun_enable_fwen (g:\project\g-777\g-777gnewcardlexinnew2\IAP.OBJ)
+     02h     13bfh     13f0h    0032h      CODE               _fun_read_word (g:\project\g-777\g-777gnewcardlexinnew2\IAP.OBJ)
+     02h     13f1h     1424h    0034h      CODE               _fun_read_page_data (g:\project\g-777\g-777gnewcardlexinnew2\IAP.OBJ)
+     02h     1425h     1445h    0021h      CODE               _wait_100MS (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     02h     1446h     1479h    0034h      CODE               _Show_CLOSE (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     02h     1487h     14b5h    002fh      CODE               _Show_usb (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     02h     14bah     14e8h    002fh      CODE               _Gsm_power_reset (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     02h     14e9h     1510h    0028h      CODE               _calculate_crc8 (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     02h     1511h     154dh    003dh      CODE               _nbIotSignal (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     02h     154eh     156bh    001eh      CODE               _memset (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     02h     1729h     173ch    0014h      CODE               _Uart_Send (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     02h     1762h     176eh    000dh      CODE               _uart_tx_string (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     02h     177eh     183fh    00c2h      CODE               _getModuleTime (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     02h     187dh     1898h    001ch      CODE               _stopGSMTask (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     02h     1899h     18ach    0014h      CODE               _clnUartBuf (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     02h     18b1h     199ch    00ech      CODE               _getBloodSuger (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     02h     199dh     19b5h    0019h      CODE               _builtin_holtek_divmodqi4_isr00 (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     02h     19b6h     19cbh    0016h      CODE               _strchr (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     02h     19cdh     1a0ch    0040h      CODE               _getServerCallback (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     02h     1a0dh     1a8bh    007fh      CODE               _getRssi (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     02h     1aa4h     1addh    003ah      CODE               _getIMEI (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     02h     1afeh     1b1ch    001fh      CODE               _hexToAscii (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     02h     1b1dh     1b9ah    007eh      CODE               _Check_NetReg (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     02h     1c15h     1c4dh    0039h      CODE               _strncmp (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     02h     1c6ch     1cb4h    0049h      CODE               _strstr (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     02h     1cb5h     1cdfh    002bh      CODE               _memcpy (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     02h     1ce0h     1d16h    0037h      CODE               _builtin_holtek_divmodhi4_isr00 (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     02h     1d17h     1d29h    0013h      CODE               _builtin_holtek_mulhi3_isr00 (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     02h     1d2ah     1d6ch    0043h      CODE               _builtin_holtek_divmodsi4_isr00 (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     02h     1d6dh     1d8bh    001fh      CODE               _builtin_holtek_mulsi3_isr00 (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     02h     1d8ch     1e04h    0079h      CODE               _atoi (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     03h     0000h     1273h    1274h      CODE               _main (g:\project\g-777\g-777gnewcardlexinnew2\G-777G.OBJ)
+     03h     129eh     12c3h    0026h      CODE               @crom (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     03h     12c4h     133ch    0079h      CODE               @crom (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     03h     133dh     159ah    025eh      CODE               @crom (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     00h     0080h     0083h    0004h      DATA     1         @HCCINIT0 (g:\project\g-777\g-777gnewcardlexinnew2\G-777G.OBJ)
+     00h     0084h     0084h    0001h      DATA     6         @HCCINIT (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     00h     0085h     0085h    0001h      DATA     959       @data_ra (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0086h     0086h    0001h      DATA     668       @data_rb (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0087h     0087h    0001h      DATA     443       @data_rc (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0088h     0088h    0001h      DATA     778       @data_rd (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0089h     0089h    0001h      DATA     732       @data_re (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     008ah     008ah    0001h      DATA     590       @data_rf (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     008bh     008bh    0001h      DATA     585       @data_rg (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     008ch     008ch    0001h      DATA     28        @data_rh (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     008dh     0092h    0006h      DATA     42.5      ftdata1 (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0093h     0095h    0003h      DATA     6         dtdata (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0096h     009ch    0007h      DATA     14        ftdata2 (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     009dh     009dh    0001h      DATA     2         @data_r120 (isr:ra~rh)
+     00h     009eh     009eh    0001h      DATA     2         @data_r220 (isr:ra~rh)
+     00h     009fh     009fh    0001h      DATA     2         @data_r320 (isr:ra~rh)
+     00h     00a0h     00a0h    0001h      DATA     2         @data_r420 (isr:ra~rh)
+     00h     00a1h     00a1h    0001h      DATA     2         @data_r520 (isr:ra~rh)
+     00h     00a2h     00a2h    0001h      DATA     25        @data_ra20 (isr:ra~rh)
+     00h     00a3h     00a3h    0001h      DATA     2         @data_r114 (isr:ra~rh)
+     00h     00a4h     00a4h    0001h      DATA     2         @data_r214 (isr:ra~rh)
+     00h     00a5h     00a5h    0001h      DATA     2         @data_r314 (isr:ra~rh)
+     00h     00a6h     00a6h    0001h      DATA     2         @data_r414 (isr:ra~rh)
+     00h     00a7h     00a7h    0001h      DATA     2         @data_r514 (isr:ra~rh)
+     00h     00a8h     00a8h    0001h      DATA     5         @data_ra14 (isr:ra~rh)
+
+     Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     00f3h     00f3h    0000h      LOCAL    0         @dummy (g:\project\g-777\g-777gnewcardlexinnew2\G-777G.OBJ)
+     00h     00ebh     00f2h    0008h      LOCAL    14.5      _main (g:\project\g-777\g-777gnewcardlexinnew2\G-777G.OBJ)
+     00h     00abh     00abh    0000h      LOCAL    0         _PORT_init (g:\project\g-777\g-777gnewcardlexinnew2\G-777G.OBJ)
+     00h     00abh     00abh    0001h      LOCAL    12        _run_time (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     00h     00abh     00abh    0000h      LOCAL    0         _check_sys_Year (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     00h     00abh     00abh    0000h      LOCAL    0         _builtin_holtek_uitof (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00abh     00abh    0000h      LOCAL    0         _builtin_holtek_ftdiv (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00abh     00abh    0000h      LOCAL    0         _builtin_holtek_ftdecode (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00abh     00abh    0000h      LOCAL    0         _builtin_holtek_ftol (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00abh     00abh    0000h      LOCAL    0         _builtin_holtek_ultof (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00abh     00abh    0000h      LOCAL    0         _builtin_holtek_ftsubadd (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00abh     00abh    0000h      LOCAL    0         _builtin_holtek_ftmul (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00abh     00abh    0000h      LOCAL    0         _Crom2Prom (CROM2PROM)
+     00h     00abh     00abh    0000h      LOCAL    0         _Sys_RESET (g:\project\g-777\g-777gnewcardlexinnew2\G-777G.OBJ)
+     00h     00abh     00b0h    0006h      LOCAL    50.167    _memset (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     00h     00adh     00adh    0000h      LOCAL    0         _Show_VER (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     00abh     00ach    0002h      LOCAL    2         _show_display (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     00abh     00abh    0000h      LOCAL    0         _init_timer_base0 (g:\project\g-777\g-777gnewcardlexinnew2\G-777G.OBJ)
+     00h     00ach     00b0h    0005h      LOCAL    28.6      _me_delay_ms (g:\project\g-777\g-777gnewcardlexinnew2\DELAY.OBJ)
+     00h     00abh     00abh    0001h      LOCAL    3         _me_delay_100us (g:\project\g-777\g-777gnewcardlexinnew2\DELAY.OBJ)
+     00h     00b1h     00b4h    0004h      LOCAL    15        _fun_read_page (g:\project\g-777\g-777gnewcardlexinnew2\IAP.OBJ)
+     00h     00adh     00b0h    0004h      LOCAL    5         _fun_read_page_data (g:\project\g-777\g-777gnewcardlexinnew2\IAP.OBJ)
+     00h     00abh     00ach    0002h      LOCAL    2         _fun_read_word (g:\project\g-777\g-777gnewcardlexinnew2\IAP.OBJ)
+     00h     00abh     00abh    0001h      LOCAL    2         _fun_enable_fwen (g:\project\g-777\g-777gnewcardlexinnew2\IAP.OBJ)
+     00h     00abh     00ach    0002h      LOCAL    15        _fun_erase_page (g:\project\g-777\g-777gnewcardlexinnew2\IAP.OBJ)
+     00h     00abh     00aeh    0004h      LOCAL    8         _fun_write_cpage (g:\project\g-777\g-777gnewcardlexinnew2\IAP.OBJ)
+     00h     00ach     00adh    0002h      LOCAL    8         _uart_init (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     00h     00b1h     00b1h    0000h      LOCAL    0         _Show_PC (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     00ach     00ach    0001h      LOCAL    3         _Buzzer (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     00h     00c3h     00c3h    0001h      LOCAL    14        _reivce_data (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     00h     00aeh     00b3h    0006h      LOCAL    2.3333    _Uart_Receice_9600 (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     00h     00ach     00adh    0002h      LOCAL    3         _Receice_one_byte (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     00h     00abh     00abh    0001h      LOCAL    3         _Uart_delay (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     00h     00aeh     00b1h    0004h      LOCAL    10.75     _Uart_Send_9600 (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     00h     00ach     00adh    0002h      LOCAL    2.5       _Send_data_9600 (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     00h     00abh     00b0h    0006h      LOCAL    6.1667    _builtin_holtek_mulhi3_isr00 (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00abh     00abh    0000h      LOCAL    0         _AD_set (g:\project\g-777\g-777gnewcardlexinnew2\AD.OBJ)
+     00h     00abh     00b2h    0008h      LOCAL    2.5       _test_OP (g:\project\g-777\g-777gnewcardlexinnew2\AD.OBJ)
+     00h     00b9h     00c2h    000ah      LOCAL    8.3       _get_lowPwd (g:\project\g-777\g-777gnewcardlexinnew2\AD.OBJ)
+     00h     00abh     00b8h    000eh      LOCAL    47.429    _builtin_holtek_divmodsi4_isr00 (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00abh     00b6h    000ch      LOCAL    28.083    _builtin_holtek_mulsi3_isr00 (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00abh     00b2h    0008h      LOCAL    42.125    _builtin_holtek_divmodhi4_isr00 (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00abh     00abh    0001h      LOCAL    2         _Get_Charge (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     00h     00b1h     00b3h    0003h      LOCAL    4.3333    _key_scan (g:\project\g-777\g-777gnewcardlexinnew2\G-777G.OBJ)
+     00h     00c7h     00cah    0004h      LOCAL    6         _Power_ON_OFF (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     00h     00abh     00abh    0000h      LOCAL    0         _OP_set (g:\project\g-777\g-777gnewcardlexinnew2\AD.OBJ)
+     00h     00c3h     00c3h    0000h      LOCAL    0         _Get_Battery (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     00h     00abh     00abh    0000h      LOCAL    0         _uart_close (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     00h     00adh     00adh    0000h      LOCAL    0         _displey_EB (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     00abh     00abh    0000h      LOCAL    0         _show_battery (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     00b1h     00b1h    0000h      LOCAL    0         _Show_OFF (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     00c3h     00c6h    0004h      LOCAL    2         _Get_Temperature (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     00h     00b3h     00b8h    0006h      LOCAL    24.5      _Show_Big_number (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     00abh     00afh    0005h      LOCAL    39        _builtin_holtek_divmodqi4_isr00 (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00adh     00adh    0000h      LOCAL    0         _Show_EE (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     00adh     00adh    0000h      LOCAL    0         _Show_Et (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     00b9h     00b9h    0000h      LOCAL    0         _entry_Blood_drop (g:\project\g-777\g-777gnewcardlexinnew2\G-777G.OBJ)
+     00h     00b9h     00b9h    0000h      LOCAL    0         _show_sequence (g:\project\g-777\g-777gnewcardlexinnew2\G-777G.OBJ)
+     00h     00b1h     00b1h    0000h      LOCAL    0         _Show_OPEN (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     00adh     00adh    0000h      LOCAL    0         _displey_YES (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     00adh     00adh    0000h      LOCAL    0         _displey_test (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     00adh     00adh    0000h      LOCAL    0         _displey_DEL (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     00b5h     00bch    0008h      LOCAL    3.625     _Get_Memroy (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     00h     00adh     00adh    0000h      LOCAL    0         _Show_END (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     00adh     00adh    0000h      LOCAL    0         _Show_000 (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     00b1h     00bbh    000bh      LOCAL    13.545    _strstr (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     00h     00abh     00ach    0002h      LOCAL    5         _strlen (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     00h     00abh     00b0h    0006h      LOCAL    3         _strncmp (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     00h     00b0h     00b0h    0001h      LOCAL    8         _Update_time (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     00b1h     00b2h    0002h      LOCAL    38        _wait_return (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     00h     00abh     00abh    0001h      LOCAL    5         _nbIotSignal (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     00h     00b9h     00bch    0004h      LOCAL    4         _transformation (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     00b1h     00b1h    0000h      LOCAL    0         _GSM_turn_ON (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     00h     00adh     00adh    0000h      LOCAL    0         _Show_EF (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     00b5h     00c3h    000fh      LOCAL    4.6       _Put_Memroy (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     00h     00cdh     00d0h    0004h      LOCAL    5         _Send_GSM2 (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     00h     00abh     00abh    0001h      LOCAL    0         _Send_phase (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     00h     00c5h     00cch    0008h      LOCAL    13.625    _GSM_task (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     00h     00b1h     00b1h    0000h      LOCAL    0         _clnUartBuf (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     00h     00b0h     00b1h    0002h      LOCAL    48        _uart_tx_string (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     00h     00ach     00afh    0004h      LOCAL    2.5       _Uart_Send (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     00h     00abh     00abh    0001h      LOCAL    2         _Send_data (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     00h     00abh     00abh    0000h      LOCAL    0         _stopGSMTask (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     00h     00ach     00b2h    0007h      LOCAL    3.2857    _getRssi (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     00h     00bbh     00c4h    000ah      LOCAL    2.6       _Check_NetReg (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     00h     00abh     00aeh    0004h      LOCAL    10.25     _strchr (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     00h     00b7h     00bah    0004h      LOCAL    8.75      _atoi (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     00h     00b1h     00b3h    0003h      LOCAL    2.3333    _getIMEI (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     00h     00abh     00b0h    0006h      LOCAL    5         _memcpy (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\v3_tabrd_mrmc.lib)
+     00h     00bch     00bfh    0004h      LOCAL    7.5       _getModuleTime (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     00h     00abh     00ach    0002h      LOCAL    6.5       _hexToAscii (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     00h     00b3h     00bah    0008h      LOCAL    3.5       _getBloodSuger (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     00h     00bch     00beh    0003h      LOCAL    3.6667    _getServerCallback (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     00h     00b5h     00cah    0016h      LOCAL    0.1818    _Store_Failure_buff (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     00h     00d1h     00eah    001ah      LOCAL    0.6923    _Send_Failure_buff (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     00h     00abh     00abh    0001h      LOCAL    1         _Gsm_power_off (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     00h     00adh     00adh    0000h      LOCAL    0         _displey_EU (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     00abh     00abh    0000h      LOCAL    0         _exit (g:\project\g-777\g-777gnewcardlexinnew2\G-777G.OBJ)
+     00h     00abh     00abh    0000h      LOCAL    0         _SysSleep (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     00h     00abh     00abh    0000h      LOCAL    0         @dummy32 (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     00aah     00aah    0001h      LOCAL    16        _isr_timer_base0 (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     00b1h     00b1h    0000h      LOCAL    0         _Show_CLOSE (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     00b1h     00b1h    0000h      LOCAL    0         _Show_usb (g:\project\g-777\g-777gnewcardlexinnew2\LCD.OBJ)
+     00h     00b3h     00b3h    0001h      LOCAL    2         _Gsm_power_reset (g:\project\g-777\g-777gnewcardlexinnew2\RUNTASK.OBJ)
+     00h     00abh     00afh    0005h      LOCAL    1.2       _calculate_crc8 (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     00h     00aah     00aah    0000h      LOCAL    0         @dummy20 (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     00h     00a9h     00a9h    0001h      LOCAL    4         _ISR_UART (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     00h     00b1h     00b2h    0002h      LOCAL    2         _wait_100MS (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+     00h     00adh     00aeh    0002h      LOCAL    1         _get_len_string (g:\project\g-777\g-777gnewcardlexinnew2\UART.OBJ)
+
+     Indepentent Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     00abh     00abh    0000h      ILOCAL   0         _AD_Delay (g:\project\g-777\g-777gnewcardlexinnew2\AD.OBJ)
+     00h     00abh     00abh    0000h      ILOCAL   0         _builtin_holtek_ftnorm (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00abh     00abh    0000h      ILOCAL   0         _builtin_holtek_ftinf (H:\HT-IDE3000\Setup\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+
+     Public Symbols Information
+     Address            Public by Name
+     0012h              _AD_Delay
+     026dh              _AD_set
+     2d44h              _Buzzer
+     5b1dh              _Check_NetReg
+     5341h              _Crom2Prom
+     5340h              _Crom2PromNext
+     4000h              _GSM_task
+     00cbh              _GSM_task_2
+     2d7ch              _GSM_turn_ON
+     2c9ah              _Get_Battery
+     3f38h              _Get_Charge
+     2ff7h              _Get_Memroy
+     1f68h              _Get_Temperature
+     7594h              _Get_time
+     185fh              _Gsm_power_off
+     54bah              _Gsm_power_reset
+     0115h              _ISR_UART
+     0268h              _OP_set
+     175dh              _PORT_init
+     3b51h              _Power_ON_OFF
+     2da5h              _Put_Memroy
+     5083h              _Receice_one_byte
+     4f2fh              _Send_Failure_buff
+     4eb2h              _Send_GSM2
+     00cdh              _Send_GSM2_2
+     3ff0h              _Send_data
+     5062h              _Send_data_9600
+     4e95h              _Send_phase
+     1dabh              _Show_000
+     2000h              _Show_Big_number
+     00b5h              _Show_Big_number_2
+     5446h              _Show_CLOSE
+     16eah              _Show_EE
+     1d65h              _Show_EF
+     1e04h              _Show_END
+     1d42h              _Show_Et
+     1ce9h              _Show_OFF
+     1dceh              _Show_OPEN
+     1786h              _Show_PC
+     1d1bh              _Show_VER
+     5487h              _Show_usb
+     72d1h              _SoundGroups
+     315ch              _Store_Failure_buff
+     1ff4h              _SysSleep
+     174fh              _Sys_RESET
+     3241h              _Uart_Receice_9600
+     5729h              _Uart_Send
+     325eh              _Uart_Send_9600
+     3feah              _Uart_delay
+     2ad9h              _Update_time
+     5d8ch              _atoi
+     7529h              _b_O_AfterMeal
+     7537h              _bloodSugarVal
+     5ce0h              _builtin_holtek_divmodhi4_isr00
+     0090h              _builtin_holtek_exp1
+     0099h              _builtin_holtek_exp2
+     0092h              _builtin_holtek_floatflag
+     0207h              _builtin_holtek_ftadd
+     0167h              _builtin_holtek_ftdecode1
+     015dh              _builtin_holtek_ftdecode2
+     0173h              _builtin_holtek_ftdiv
+     0018h              _builtin_holtek_ftinf
+     01a5h              _builtin_holtek_ftmul
+     0239h              _builtin_holtek_ftnorm
+     01dah              _builtin_holtek_ftol
+     0205h              _builtin_holtek_ftsub
+     016fh              _builtin_holtek_ftzero
+     0171h              _builtin_holtek_ftzero1
+     008dh              _builtin_holtek_mant1
+     0093h              _builtin_holtek_mant12p
+     0096h              _builtin_holtek_mant2
+     5d17h              _builtin_holtek_mulhi3_isr00
+     5d6dh              _builtin_holtek_mulsi3_isr00
+     009ah              _builtin_holtek_prod
+     0091h              _builtin_holtek_signs
+     5ce9h              _builtin_holtek_udivmodhi4_isr00
+     599dh              _builtin_holtek_udivmodqi4_isr00
+     5d2ah              _builtin_holtek_udivmodsi4_isr00
+     000eh              _builtin_holtek_uitof
+     0002h              _builtin_holtek_ultof
+     54e9h              _calculate_crc8
+     7544h              _checkData
+     754eh              _checkTime
+     509fh              _check_sys_Year
+     5899h              _clnUartBuf
+     74e4h              _crc8_table
+     7528h              _dakuohao
+     72cah              _data_time1
+     72c4h              _data_time2
+     1c85h              _displey_DEL
+     5038h              _displey_EB
+     1cc6h              _displey_EU
+     1c31h              _displey_YES
+     1c5dh              _displey_test
+     1864h              _entry_Blood_drop
+     18cdh              _exit
+     5392h              _fun_enable_fwen
+     3fcdh              _fun_erase_page
+     1b26h              _fun_read_page
+     00b4h              _fun_read_page_2
+     53f1h              _fun_read_page_data
+     53bfh              _fun_read_word
+     1bc5h              _fun_write_cpage
+     58b1h              _getBloodSuger
+     5aa4h              _getIMEI
+     577eh              _getModuleTime
+     5a0dh              _getRssi
+     59cdh              _getServerCallback
+     537eh              _get_len_string
+     0373h              _get_lowPwd
+     00b9h              _get_lowPwd_2
+     5afeh              _hexToAscii
+     7524h              _huanhang
+     7526h              _huanhangkong
+     0080h              _iSec
+     755bh              _imei
+     1756h              _init_timer_base0
+     0047h              _isr_timer_base0
+     170dh              _key_scan
+     6000h              _main
+     1742h              _me_delay_100us
+     035dh              _me_delay_ms
+     5cb5h              _memcpy
+     554eh              _memset
+     5511h              _nbIotSignal
+     72b8h              _number_tabL
+     72a8h              _number_tabL2
+     72adh              _number_tabM
+     72beh              _number_tabR
+     72b3h              _number_tabR2
+     3276h              _reivce_data
+     5255h              _run_time
+     3f86h              _show_battery
+     17c0h              _show_display
+     1942h              _show_sequence
+     729eh              _small_number_tab
+     7557h              _sn
+     587dh              _stopGSMTask
+     59b6h              _strchr
+     5360h              _strlen
+     5c15h              _strncmp
+     5c6ch              _strstr
+     0272h              _test_OP
+     1e50h              _transformation
+     3234h              _uart_close
+     2d58h              _uart_init
+     5762h              _uart_tx_string
+     7561h              _urlHead
+     5425h              _wait_100MS
+     3f13h              _wait_return
+     00a3h              r114
+     009dh              r120
+     00a4h              r214
+     009eh              r220
+     00a5h              r314
+     009fh              r320
+     00a6h              r414
+     00a0h              r420
+     00a7h              r514
+     00a1h              r520
+     0085h              ra
+     00a8h              ra14
+     00a2h              ra20
+     0086h              rb
+     0087h              rc
+     0088h              rd
+     0089h              re
+     008ah              rf
+     008bh              rg
+     008ch              rh
+     1748h              startup_value_1
+
+     Address            Public by Value
+     0002h              _builtin_holtek_ultof
+     000eh              _builtin_holtek_uitof
+     0012h              _AD_Delay
+     0018h              _builtin_holtek_ftinf
+     0047h              _isr_timer_base0
+     0080h              _iSec
+     0085h              ra
+     0086h              rb
+     0087h              rc
+     0088h              rd
+     0089h              re
+     008ah              rf
+     008bh              rg
+     008ch              rh
+     008dh              _builtin_holtek_mant1
+     0090h              _builtin_holtek_exp1
+     0091h              _builtin_holtek_signs
+     0092h              _builtin_holtek_floatflag
+     0093h              _builtin_holtek_mant12p
+     0096h              _builtin_holtek_mant2
+     0099h              _builtin_holtek_exp2
+     009ah              _builtin_holtek_prod
+     009dh              r120
+     009eh              r220
+     009fh              r320
+     00a0h              r420
+     00a1h              r520
+     00a2h              ra20
+     00a3h              r114
+     00a4h              r214
+     00a5h              r314
+     00a6h              r414
+     00a7h              r514
+     00a8h              ra14
+     00b4h              _fun_read_page_2
+     00b5h              _Show_Big_number_2
+     00b9h              _get_lowPwd_2
+     00cbh              _GSM_task_2
+     00cdh              _Send_GSM2_2
+     0115h              _ISR_UART
+     015dh              _builtin_holtek_ftdecode2
+     0167h              _builtin_holtek_ftdecode1
+     016fh              _builtin_holtek_ftzero
+     0171h              _builtin_holtek_ftzero1
+     0173h              _builtin_holtek_ftdiv
+     01a5h              _builtin_holtek_ftmul
+     01dah              _builtin_holtek_ftol
+     0205h              _builtin_holtek_ftsub
+     0207h              _builtin_holtek_ftadd
+     0239h              _builtin_holtek_ftnorm
+     0268h              _OP_set
+     026dh              _AD_set
+     0272h              _test_OP
+     035dh              _me_delay_ms
+     0373h              _get_lowPwd
+     16eah              _Show_EE
+     170dh              _key_scan
+     1742h              _me_delay_100us
+     1748h              startup_value_1
+     174fh              _Sys_RESET
+     1756h              _init_timer_base0
+     175dh              _PORT_init
+     1786h              _Show_PC
+     17c0h              _show_display
+     185fh              _Gsm_power_off
+     1864h              _entry_Blood_drop
+     18cdh              _exit
+     1942h              _show_sequence
+     1b26h              _fun_read_page
+     1bc5h              _fun_write_cpage
+     1c31h              _displey_YES
+     1c5dh              _displey_test
+     1c85h              _displey_DEL
+     1cc6h              _displey_EU
+     1ce9h              _Show_OFF
+     1d1bh              _Show_VER
+     1d42h              _Show_Et
+     1d65h              _Show_EF
+     1dabh              _Show_000
+     1dceh              _Show_OPEN
+     1e04h              _Show_END
+     1e50h              _transformation
+     1f68h              _Get_Temperature
+     1ff4h              _SysSleep
+     2000h              _Show_Big_number
+     2ad9h              _Update_time
+     2c9ah              _Get_Battery
+     2d44h              _Buzzer
+     2d58h              _uart_init
+     2d7ch              _GSM_turn_ON
+     2da5h              _Put_Memroy
+     2ff7h              _Get_Memroy
+     315ch              _Store_Failure_buff
+     3234h              _uart_close
+     3241h              _Uart_Receice_9600
+     325eh              _Uart_Send_9600
+     3276h              _reivce_data
+     3b51h              _Power_ON_OFF
+     3f13h              _wait_return
+     3f38h              _Get_Charge
+     3f86h              _show_battery
+     3fcdh              _fun_erase_page
+     3feah              _Uart_delay
+     3ff0h              _Send_data
+     4000h              _GSM_task
+     4e95h              _Send_phase
+     4eb2h              _Send_GSM2
+     4f2fh              _Send_Failure_buff
+     5038h              _displey_EB
+     5062h              _Send_data_9600
+     5083h              _Receice_one_byte
+     509fh              _check_sys_Year
+     5255h              _run_time
+     5340h              _Crom2PromNext
+     5341h              _Crom2Prom
+     5360h              _strlen
+     537eh              _get_len_string
+     5392h              _fun_enable_fwen
+     53bfh              _fun_read_word
+     53f1h              _fun_read_page_data
+     5425h              _wait_100MS
+     5446h              _Show_CLOSE
+     5487h              _Show_usb
+     54bah              _Gsm_power_reset
+     54e9h              _calculate_crc8
+     5511h              _nbIotSignal
+     554eh              _memset
+     5729h              _Uart_Send
+     5762h              _uart_tx_string
+     577eh              _getModuleTime
+     587dh              _stopGSMTask
+     5899h              _clnUartBuf
+     58b1h              _getBloodSuger
+     599dh              _builtin_holtek_udivmodqi4_isr00
+     59b6h              _strchr
+     59cdh              _getServerCallback
+     5a0dh              _getRssi
+     5aa4h              _getIMEI
+     5afeh              _hexToAscii
+     5b1dh              _Check_NetReg
+     5c15h              _strncmp
+     5c6ch              _strstr
+     5cb5h              _memcpy
+     5ce0h              _builtin_holtek_divmodhi4_isr00
+     5ce9h              _builtin_holtek_udivmodhi4_isr00
+     5d17h              _builtin_holtek_mulhi3_isr00
+     5d2ah              _builtin_holtek_udivmodsi4_isr00
+     5d6dh              _builtin_holtek_mulsi3_isr00
+     5d8ch              _atoi
+     6000h              _main
+     729eh              _small_number_tab
+     72a8h              _number_tabL2
+     72adh              _number_tabM
+     72b3h              _number_tabR2
+     72b8h              _number_tabL
+     72beh              _number_tabR
+     72c4h              _data_time2
+     72cah              _data_time1
+     72d1h              _SoundGroups
+     74e4h              _crc8_table
+     7524h              _huanhang
+     7526h              _huanhangkong
+     7528h              _dakuohao
+     7529h              _b_O_AfterMeal
+     7537h              _bloodSugarVal
+     7544h              _checkData
+     754eh              _checkTime
+     7557h              _sn
+     755bh              _imei
+     7561h              _urlHead
+     7594h              _Get_time
+
+
+ROM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       2000h     1f49h    97%
+     01h       2000h     1fe8h    99%
+     02h       2000h     1ae4h    84%
+     03h       2000h     1571h    67%
+     Total     8000h     6f86h    87%
+
+RAM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       0080h     0073h    89%
+     02h       0080h     0080h    100%
+     03h       0080h     006bh    83%
+     04h       0080h     0028h    31%
+     Total     0200h     0186h    76%
+
+Use Stack Count
+_main: 7
+_isr_timer_base0: 0
+_Show_CLOSE: 2
+_Show_usb: 2
+_Gsm_power_reset: 3
+_calculate_crc8: 1
+_ISR_UART: 0
+_wait_100MS: 2
+_get_len_string: 2
+
+Call Tree
+    @dummy
+        _main (0)
+            _PORT_init (1)
+            _run_time (1)
+                _check_sys_Year (2)
+                    _builtin_holtek_uitof (3)
+                    _builtin_holtek_ftdiv (3)
+                        _builtin_holtek_ftdecode (4)
+                    _builtin_holtek_ftol (3)
+                        _builtin_holtek_ftdecode (4)
+                    _builtin_holtek_ultof (3)
+                    _builtin_holtek_ftsubadd (3)
+                        _builtin_holtek_ftdecode (4)
+                    _builtin_holtek_ftmul (3)
+                        _builtin_holtek_ftdecode (4)
+                _Crom2Prom (2)
+            _Sys_RESET (1)
+            _memset (1)
+            _Show_VER (1)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _init_timer_base0 (1)
+            _me_delay_ms (1)
+                _me_delay_100us (2)
+            _fun_read_page (1)
+                _fun_read_page_data (2)
+                    _fun_read_word (3)
+                _Crom2Prom (2)
+            _fun_enable_fwen (1)
+            _me_delay_100us (1)
+            _fun_erase_page (1)
+            _fun_write_cpage (1)
+                _Crom2Prom (2)
+            _show_display (1)
+                _Crom2Prom (2)
+            _uart_init (1)
+                _me_delay_100us (2)
+            _Show_PC (1)
+                _memset (2)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _Buzzer (1)
+                _me_delay_100us (2)
+            _reivce_data (1)
+                _Uart_Receice_9600 (2)
+                    _Receice_one_byte (3)
+                        _Uart_delay (4)
+                _Uart_Send_9600 (2)
+                    _Crom2Prom (3)
+                    _Send_data_9600 (3)
+                        _Uart_delay (4)
+                _me_delay_ms (2)
+                    _me_delay_100us (3)
+                _builtin_holtek_mulhi3_isr00 (2)
+                _memset (2)
+                _AD_set (2)
+                _test_OP (2)
+                _get_lowPwd (2)
+                    _AD_set (3)
+                    _me_delay_ms (3)
+                        _me_delay_100us (4)
+                    _builtin_holtek_divmodsi4_isr00 (3)
+                    _builtin_holtek_mulsi3_isr00 (3)
+                _builtin_holtek_ultof (2)
+                _builtin_holtek_ftdiv (2)
+                    _builtin_holtek_ftdecode (3)
+                _builtin_holtek_ftmul (2)
+                    _builtin_holtek_ftdecode (3)
+                _builtin_holtek_ftol (2)
+                    _builtin_holtek_ftdecode (3)
+                _builtin_holtek_divmodhi4_isr00 (2)
+                _uart_init (2)
+                    _me_delay_100us (3)
+                _Crom2Prom (2)
+                _fun_enable_fwen (2)
+                _me_delay_100us (2)
+                _fun_erase_page (2)
+                _fun_write_cpage (2)
+                    _Crom2Prom (3)
+            _Get_Charge (1)
+            _key_scan (1)
+                _me_delay_ms (2)
+                    _me_delay_100us (3)
+            _Power_ON_OFF (1)
+                _uart_init (2)
+                    _me_delay_100us (3)
+                _OP_set (2)
+                _memset (2)
+                _show_display (2)
+                    _Crom2Prom (3)
+                _fun_read_page (2)
+                    _fun_read_page_data (3)
+                        _fun_read_word (4)
+                    _Crom2Prom (3)
+                _me_delay_ms (2)
+                    _me_delay_100us (3)
+                _Get_Battery (2)
+                    _get_lowPwd (3)
+                        _AD_set (4)
+                        _me_delay_ms (4)
+                            _me_delay_100us (5)
+                        _builtin_holtek_divmodsi4_isr00 (4)
+                        _builtin_holtek_mulsi3_isr00 (4)
+                _uart_close (2)
+                _displey_EB (2)
+                    _show_battery (3)
+                    _show_display (3)
+                        _Crom2Prom (4)
+                _Show_OFF (2)
+                    _memset (3)
+                    _show_battery (3)
+                    _show_display (3)
+                        _Crom2Prom (4)
+                _Get_Temperature (2)
+                    _get_lowPwd (3)
+                        _AD_set (4)
+                        _me_delay_ms (4)
+                            _me_delay_100us (5)
+                        _builtin_holtek_divmodsi4_isr00 (4)
+                        _builtin_holtek_mulsi3_isr00 (4)
+                    _Crom2Prom (3)
+                    _Crom2Prom (3)
+            _Show_Big_number (1)
+                _Crom2Prom (2)
+                _builtin_holtek_divmodqi4_isr00 (2)
+                _Crom2Prom (2)
+                _builtin_holtek_divmodhi4_isr00 (2)
+                _builtin_holtek_mulhi3_isr00 (2)
+                _show_battery (2)
+            _show_battery (1)
+            _OP_set (1)
+            _Get_Battery (1)
+                _get_lowPwd (2)
+                    _AD_set (3)
+                    _me_delay_ms (3)
+                        _me_delay_100us (4)
+                    _builtin_holtek_divmodsi4_isr00 (3)
+                    _builtin_holtek_mulsi3_isr00 (3)
+            _Show_EE (1)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _get_lowPwd (1)
+                _AD_set (2)
+                _me_delay_ms (2)
+                    _me_delay_100us (3)
+                _builtin_holtek_divmodsi4_isr00 (2)
+                _builtin_holtek_mulsi3_isr00 (2)
+            _Get_Temperature (1)
+                _get_lowPwd (2)
+                    _AD_set (3)
+                    _me_delay_ms (3)
+                        _me_delay_100us (4)
+                    _builtin_holtek_divmodsi4_isr00 (3)
+                    _builtin_holtek_mulsi3_isr00 (3)
+                _Crom2Prom (2)
+                _Crom2Prom (2)
+            _Show_Et (1)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _entry_Blood_drop (1)
+                _memset (2)
+                _show_display (2)
+                    _Crom2Prom (3)
+                _AD_set (2)
+                _me_delay_ms (2)
+                    _me_delay_100us (3)
+                _Show_Big_number (2)
+                    _Crom2Prom (3)
+                    _builtin_holtek_divmodqi4_isr00 (3)
+                    _Crom2Prom (3)
+                    _builtin_holtek_divmodhi4_isr00 (3)
+                    _builtin_holtek_mulhi3_isr00 (3)
+                    _show_battery (3)
+            _show_sequence (1)
+                _builtin_holtek_divmodsi4_isr00 (2)
+                _Show_Big_number (2)
+                    _Crom2Prom (3)
+                    _builtin_holtek_divmodqi4_isr00 (3)
+                    _Crom2Prom (3)
+                    _builtin_holtek_divmodhi4_isr00 (3)
+                    _builtin_holtek_mulhi3_isr00 (3)
+                    _show_battery (3)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _Show_OPEN (1)
+                _memset (2)
+                _show_battery (2)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _displey_YES (1)
+                _show_battery (2)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _displey_test (1)
+                _show_battery (2)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _displey_DEL (1)
+                _show_battery (2)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _Show_OFF (1)
+                _memset (2)
+                _show_battery (2)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _Get_Memroy (1)
+                _builtin_holtek_divmodhi4_isr00 (2)
+                _memset (2)
+                _fun_read_page (2)
+                    _fun_read_page_data (3)
+                        _fun_read_word (4)
+                    _Crom2Prom (3)
+                _Crom2Prom (2)
+            _Show_END (1)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _Show_000 (1)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _strstr (1)
+                _Crom2Prom (2)
+                _strlen (2)
+                    _Crom2Prom (3)
+                _strncmp (2)
+                    _Crom2Prom (3)
+            _Update_time (1)
+                _builtin_holtek_divmodqi4_isr00 (2)
+                _Crom2Prom (2)
+                _Crom2Prom (2)
+            _wait_return (1)
+                _nbIotSignal (2)
+                _show_display (2)
+                    _Crom2Prom (3)
+                _me_delay_ms (2)
+                    _me_delay_100us (3)
+            _transformation (1)
+                _builtin_holtek_mulsi3_isr00 (2)
+                _builtin_holtek_divmodsi4_isr00 (2)
+            _GSM_turn_ON (1)
+                _me_delay_ms (2)
+                    _me_delay_100us (3)
+                _uart_init (2)
+                    _me_delay_100us (3)
+            _Show_EF (1)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _Put_Memroy (1)
+                _builtin_holtek_divmodhi4_isr00 (2)
+                _fun_read_page (2)
+                    _fun_read_page_data (3)
+                        _fun_read_word (4)
+                    _Crom2Prom (3)
+                _me_delay_ms (2)
+                    _me_delay_100us (3)
+                _Crom2Prom (2)
+                _fun_enable_fwen (2)
+                _me_delay_100us (2)
+                _fun_erase_page (2)
+                _fun_write_cpage (2)
+                    _Crom2Prom (3)
+            _Send_GSM2 (1)
+                _Send_phase (2)
+                _GSM_task (2)
+                    _clnUartBuf (3)
+                        _memset (4)
+                    _uart_tx_string (3)
+                        _strlen (4)
+                            _Crom2Prom (5)
+                        _Uart_Send (4)
+                            _Crom2Prom (5)
+                            _Send_data (5)
+                    _wait_return (3)
+                        _nbIotSignal (4)
+                        _show_display (4)
+                            _Crom2Prom (5)
+                        _me_delay_ms (4)
+                            _me_delay_100us (5)
+                    _strstr (3)
+                        _Crom2Prom (4)
+                        _strlen (4)
+                            _Crom2Prom (5)
+                        _strncmp (4)
+                            _Crom2Prom (5)
+                    _stopGSMTask (3)
+                    _getRssi (3)
+                        _Crom2Prom (4)
+                        _nbIotSignal (4)
+                    _Check_NetReg (3)
+                        _strchr (4)
+                            _Crom2Prom (5)
+                        _atoi (4)
+                            _Crom2Prom (5)
+                            _builtin_holtek_mulsi3_isr00 (5)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                    _getIMEI (3)
+                        _memset (4)
+                        _memcpy (4)
+                            _Crom2Prom (5)
+                    _getModuleTime (3)
+                        _strstr (4)
+                            _Crom2Prom (5)
+                            _strlen (5)
+                                _Crom2Prom (6)
+                            _strncmp (5)
+                                _Crom2Prom (6)
+                        _strchr (4)
+                            _Crom2Prom (5)
+                        _atoi (4)
+                            _Crom2Prom (5)
+                            _builtin_holtek_mulsi3_isr00 (5)
+                    _memset (3)
+                    _hexToAscii (3)
+                    _builtin_holtek_divmodsi4_isr00 (3)
+                    _builtin_holtek_divmodhi4_isr00 (3)
+                    _builtin_holtek_divmodqi4_isr00 (3)
+                    _Get_Memroy (3)
+                        _builtin_holtek_divmodhi4_isr00 (4)
+                        _memset (4)
+                        _fun_read_page (4)
+                            _fun_read_page_data (5)
+                                _fun_read_word (6)
+                            _Crom2Prom (5)
+                        _Crom2Prom (4)
+                    _builtin_holtek_divmodhi4_isr00 (3)
+                    _getBloodSuger (3)
+                        _builtin_holtek_mulhi3_isr00 (4)
+                        _builtin_holtek_divmodhi4_isr00 (4)
+                        _memcpy (4)
+                            _Crom2Prom (5)
+                    _memcpy (3)
+                        _Crom2Prom (4)
+                    _getServerCallback (3)
+                        _strstr (4)
+                            _Crom2Prom (5)
+                            _strlen (5)
+                                _Crom2Prom (6)
+                            _strncmp (5)
+                                _Crom2Prom (6)
+                _memset (2)
+            _Store_Failure_buff (1)
+                _memset (2)
+                _fun_read_page (2)
+                    _fun_read_page_data (3)
+                        _fun_read_word (4)
+                    _Crom2Prom (3)
+                _Crom2Prom (2)
+                _Crom2Prom (2)
+                _fun_enable_fwen (2)
+                _me_delay_100us (2)
+                _fun_erase_page (2)
+                _fun_write_cpage (2)
+                    _Crom2Prom (3)
+            _Send_Failure_buff (1)
+                _memset (2)
+                _fun_read_page (2)
+                    _fun_read_page_data (3)
+                        _fun_read_word (4)
+                    _Crom2Prom (3)
+                _Crom2Prom (2)
+                _Crom2Prom (2)
+                _Send_GSM2 (2)
+                    _Send_phase (3)
+                    _GSM_task (3)
+                        _clnUartBuf (4)
+                            _memset (5)
+                        _uart_tx_string (4)
+                            _strlen (5)
+                                _Crom2Prom (6)
+                            _Uart_Send (5)
+                                _Crom2Prom (6)
+                                _Send_data (6)
+                        _wait_return (4)
+                            _nbIotSignal (5)
+                            _show_display (5)
+                                _Crom2Prom (6)
+                            _me_delay_ms (5)
+                                _me_delay_100us (6)
+                        _strstr (4)
+                            _Crom2Prom (5)
+                            _strlen (5)
+                                _Crom2Prom (6)
+                            _strncmp (5)
+                                _Crom2Prom (6)
+                        _stopGSMTask (4)
+                        _getRssi (4)
+                            _Crom2Prom (5)
+                            _nbIotSignal (5)
+                        _Check_NetReg (4)
+                            _strchr (5)
+                                _Crom2Prom (6)
+                            _atoi (5)
+                                _Crom2Prom (6)
+                                _builtin_holtek_mulsi3_isr00 (6)
+                            _Crom2Prom (5)
+                            _Crom2Prom (5)
+                        _getIMEI (4)
+                            _memset (5)
+                            _memcpy (5)
+                                _Crom2Prom (6)
+                        _getModuleTime (4)
+                            _strstr (5)
+                                _Crom2Prom (6)
+                                _strlen (6)
+                                    _Crom2Prom (7)
+                                _strncmp (6)
+                                    _Crom2Prom (7)
+                            _strchr (5)
+                                _Crom2Prom (6)
+                            _atoi (5)
+                                _Crom2Prom (6)
+                                _builtin_holtek_mulsi3_isr00 (6)
+                        _memset (4)
+                        _hexToAscii (4)
+                        _builtin_holtek_divmodsi4_isr00 (4)
+                        _builtin_holtek_divmodhi4_isr00 (4)
+                        _builtin_holtek_divmodqi4_isr00 (4)
+                        _Get_Memroy (4)
+                            _builtin_holtek_divmodhi4_isr00 (5)
+                            _memset (5)
+                            _fun_read_page (5)
+                                _fun_read_page_data (6)
+                                    _fun_read_word (7)
+                                _Crom2Prom (6)
+                            _Crom2Prom (5)
+                        _builtin_holtek_divmodhi4_isr00 (4)
+                        _getBloodSuger (4)
+                            _builtin_holtek_mulhi3_isr00 (5)
+                            _builtin_holtek_divmodhi4_isr00 (5)
+                            _memcpy (5)
+                                _Crom2Prom (6)
+                        _memcpy (4)
+                            _Crom2Prom (5)
+                        _getServerCallback (4)
+                            _strstr (5)
+                                _Crom2Prom (6)
+                                _strlen (6)
+                                    _Crom2Prom (7)
+                                _strncmp (6)
+                                    _Crom2Prom (7)
+                    _memset (3)
+                _me_delay_ms (2)
+                    _me_delay_100us (3)
+                _fun_enable_fwen (2)
+                _me_delay_100us (2)
+                _fun_erase_page (2)
+                _fun_write_cpage (2)
+                    _Crom2Prom (3)
+            _Gsm_power_off (1)
+            _displey_EU (1)
+                _show_display (2)
+                    _Crom2Prom (3)
+            _exit (1)
+            _SysSleep (1)
+                _uart_close (2)
+    @dummy32
+        _isr_timer_base0 (0)
+    _Show_CLOSE
+        _memset (0)
+        _show_battery (0)
+        _show_display (0)
+            _Crom2Prom (1)
+    _Show_usb
+        _memset (0)
+        _show_display (0)
+            _Crom2Prom (1)
+    _Gsm_power_reset
+        _wait_return (0)
+            _nbIotSignal (1)
+            _show_display (1)
+                _Crom2Prom (2)
+            _me_delay_ms (1)
+                _me_delay_100us (2)
+        _GSM_turn_ON (0)
+            _me_delay_ms (1)
+                _me_delay_100us (2)
+            _uart_init (1)
+                _me_delay_100us (2)
+        _uart_init (0)
+            _me_delay_100us (1)
+    _calculate_crc8
+        _Crom2Prom (0)
+    @dummy20
+        _ISR_UART (0)
+    _wait_100MS
+        _show_battery (0)
+        _me_delay_ms (0)
+            _me_delay_100us (1)
+    _get_len_string
+        _strlen (0)
+            _Crom2Prom (1)
+
+HLINK : 程序的开始执行点在程序段'@code'（地址0）。定义在'g:\project\g-777\g-777gnewcardlexinnew2\G-777G.OBJ' 文件中
+
+错误总数 : 0  警告总数 : 0
